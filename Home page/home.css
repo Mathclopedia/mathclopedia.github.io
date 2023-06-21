@@ -17,6 +17,16 @@
     */
 }
 
+/* STYLE BUTTON */
+button { 
+    margin-top: 5px;
+    font-family: Century Gothic;
+    display: inline-block;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+  }
+
 /*Animation binded to math message (tis broken*/
 /*
 @keyframes appear {
