@@ -1,0 +1,37 @@
+/*animation binded to welcome*/
+
+/*
+@keyframes disappear {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+*/
+
+#welcome {
+    text-align: center;
+    padding: 230px 0;
+    font-size: 24px;
+    /*animation: disappear 3s 3s;
+    animation-fill-mode: forwards;
+    */
+}
+
+/*Animation binded to math message (tis broken*/
+/*
+@keyframes appear {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#math {
+    text-align: center;
+    padding: 270px 0;
+    font-size: 30px;
+    animation: appear 7s;
+    animation-fill-mode: forwards;
+}
+*/
+
+#math {
+    display: none;
+}
