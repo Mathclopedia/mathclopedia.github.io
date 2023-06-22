@@ -13,10 +13,14 @@
     font-size: 24px;
     color: pink;
     font-family: Century Gothic;
+    /*font-family: Bahnschrift Light;*/
+    margin: 2em;
+    background-color: #c8c0a3;
     /*animation: disappear 3s 3s;
     animation-fill-mode: forwards;
     */
 }
+
 
 /* STYLE BUTTON */
 button { 
