@@ -19,25 +19,30 @@
         <!-- Math level questionare -->
         <div id = "math">
             <div id = "mathMsg">
-                <h1> What math are you in?</h1>
+                <h1> Where do you want to explore first?</h1>
                 <h2> (You can always change it later) </h2>
             </div>
 
             <!-- Drop down menu for math level -->
-            <select name = "Math levels" id = "dropMenu">
-                <option> Math 6 </option>
-                <option> Math 7 </option>
-                <option> Math 8 </option>
-                <option> Algebra 1 </option>
-                <option> Geometry </option>
-                <option> Algebra 2 </option>
-                <option> Pre-Calculus </option>
-                <option> Calculus AB </option>
-                <option> Calculus BC </option>
-                <option> Statistics </option>
-            </select>
+            <div class = "dropdown">
+                <button id = "select"> Select </button>
+
+                <div class = "dropdown-content">
+                    <a id = "six" href = "math6/math6.html"> Math 6 </a>
+                    <a id = "seven" href = "math7/math7.html"> Math 7 </a>
+                    <a id = "eight" href = "math8/math8.html"> Math 8 </a>
+                    <a id = "alg1" href = "alg1/alg1.html"> Algebra 1 </a>
+                    <a id = "geo" href = "geo/geo.html"> Geometry </a>
+                    <a id = "alg2" href = "alg2/alg2.html"> Algebra 2 </a>
+                    <a id = "precalc" href = "precalc/precalc.html"> Pre-Calculus </a>
+                    <a id = "calcAB" href = "calcAB/calcAB.html"> Calculus AB </a>
+                    <a id = "calcBC" href = "calcBC/calcBC.html"> Calculus BC </a>
+                    <a id = "stats" href = "statistics/statistics.html"> Statistics </a>
+                    <a id = "unitCircle" href = "unitCircle/unitCircle.html"> Unit Circle </a>
+                    <a id = "unitConversion" href = "unitConversion/unitConversion.html"> Unit Conversion </a>
+                </div>
+            </div>
             
-            <button id = "select"> Select </button>
         </div>
 
     </body>
