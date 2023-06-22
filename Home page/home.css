@@ -8,13 +8,13 @@
 */
 
 #welcome {
+    background-color: #c8c0a3;
     text-align: center;
     padding: 245px 0;
     font-size: 24px;
     color: #9f1e2b;
     font-family: Century Gothic;
     /*font-family: Bahnschrift Light;*/
-    background-color: #c8c0a3;
     /*animation: disappear 3s 3s;
     animation-fill-mode: forwards;
     */
@@ -29,6 +29,7 @@ button {
     border-radius: 25px;
     background-position: left top;
     background-repeat: repeat;
+    border-radius: 25px;
   }
 
 /* STYLE IMAGES */
