@@ -12,7 +12,7 @@
     padding: 200px 0;
     font-size: 24px;
     color: pink;
-    font-family: Bahnschrift Light;
+    font-family: Century Gothic;
     /*font-family: Bahnschrift Light;*/
     /*animation: disappear 3s 3s;
     animation-fill-mode: forwards;
@@ -23,7 +23,7 @@
 /* STYLE BUTTON */
 button { 
     margin-top: 5px;
-    font-family: Bahnschrift Light;
+    font-family: Century Gothic;
     display: inline-block;
     border-radius: 25px;
     background-position: left top;
