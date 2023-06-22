@@ -12,7 +12,7 @@
     padding: 200px 0;
     font-size: 24px;
     color: pink;
-    font-family: Century Gothic;
+    font-family: Bahnschrift Light;
     /*font-family: Bahnschrift Light;*/
     /*animation: disappear 3s 3s;
     animation-fill-mode: forwards;
@@ -23,7 +23,7 @@
 /* STYLE BUTTON */
 button { 
     margin-top: 5px;
-    font-family: Century Gothic;
+    font-family: Bahnschrift Light;
     display: inline-block;
     border-radius: 25px;
     background-position: left top;
@@ -33,7 +33,7 @@ button {
 /* STYLE IMAGES */
 img {
     height: 10em;
-    border: 8px solid rgb(195, 75, 95)
+    /*border: 8px solid rgb(195, 75, 95)*/
   }
 
 /*Animation binded to math message (tis broken*/
