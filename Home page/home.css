@@ -7,23 +7,32 @@
 }
 */
 
+/*font*/
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('century gothic/CenturyGothic.woff2') format('woff2'),
+        url('century gothic/CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
+/*welcome page*/
 #welcome {
     text-align: center;
     padding: 200px 0;
     font-size: 24px;
     color: pink;
-    font-family: Century Gothic;
-    /*font-family: Bahnschrift Light;*/
-    /*animation: disappear 3s 3s;
-    animation-fill-mode: forwards;
-    */
 }
 
 
 /* STYLE BUTTON */
 button { 
     margin-top: 5px;
-    font-family: Century Gothic;
     display: inline-block;
     border-radius: 25px;
     background-position: left top;
@@ -52,11 +61,11 @@ img {
 }
 */
 
+/* dropdown menu*/
 #math {
     display: none;
 }
 
-/* dropdown menu*/
 #select {
     font-size: 30px;
 }
@@ -67,6 +76,7 @@ img {
   } 
 
 .dropdown-content {
+    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
     display: none;
     position: absolute;
     width: 100%;
