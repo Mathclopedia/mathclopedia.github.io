@@ -10,7 +10,7 @@
 #welcome {
     text-align: center;
     padding: 200px 0;
-    font-size: 24px;
+    font-size: 22px;
     color: pink;
     font-family: Century Gothic;
     /*font-family: Bahnschrift Light;*/
@@ -32,9 +32,10 @@ button {
 
 /* STYLE IMAGES */
 img {
-    height: 10em;
+    height: 7em;
     /*border: 8px solid rgb(195, 75, 95)*/
   }
+
 
 /*Animation binded to math message (tis broken*/
 /*
