@@ -29,3 +29,7 @@ body {
 .barStuff a:hover {
     background-color: #e5a8a8;
 }
+
+h4 {
+    font-size: 25px;
+}
