@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('centuryGothic/CenturyGothic.woff2') format('woff2'),
+        url('centuryGothic/CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
     margin-left: 0px;
     margin-top: 0px;
@@ -32,4 +42,16 @@ body {
 
 h4 {
     font-size: 25px;
+}
+
+#vector {
+    height: 300px;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: medium;
+    border-color: rgb(128, 32, 32);
+}
+
+.notes{
+    height: 200px;
 }

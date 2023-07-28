@@ -1,3 +1,7 @@
 # Math-Formula-Sheet-Unit-Converter
-avanti is so cool you should check out the website
-haha we figured it out weee
+θ theta
+π = pi
+<sub> for small text
+<sup> for exponents
+<span>&#183;</span> makes multiplication dots
+&lt;like&gt; for <>
