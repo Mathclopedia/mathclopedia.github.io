@@ -42,6 +42,15 @@ body {
 
 h4 {
     font-size: 25px;
+    margin-left: 15px;
+}
+
+h5{
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 15px;
 }
 
 #vector {
@@ -52,6 +61,6 @@ h4 {
     border-color: rgb(128, 32, 32);
 }
 
-.notes{
+img {
     height: 200px;
 }
