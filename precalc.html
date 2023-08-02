@@ -4,22 +4,25 @@
         <title>Precalculus</title>
         <link href="precalc.css" rel="stylesheet" type="text/css" />
     </head>
+
+    <nav> 
+      <ul class = "bar">
+        <li class = "barStuff"><a href="alg1.html">Algebra 1</a></li>
+        <li class = "barStuff"><a href="geo.html">Geometry</a></li>
+        <li class = "barStuff"><a href="alg2.html">Algebra 2</a></li>
+        <li class = "barStuff"><a href="precalc.html">Precalculus</a></li>
+        <li class = "barStuff"><a href="calcAB.html">Calculus AB</a></li>
+        <li class = "barStuff"><a href="calcBC.html">Calculus BC</a></li>
+        <li class = "barStuff"><a href="statistics.html">Statistics</a></li>
+        <li class = "barStuff"><a href="trig.html">Trigonometry</a></li>
+        <li class = "barStuff"><a href="unitConversion.html">Unit Conversion</a></li>
+      </ul>
+    </nav>
+
     <body>
       
       <!-- Nav bar -->
-      <nav> 
-        <ul class = "bar">
-          <li class = "barStuff"><a href="alg1.html">Algebra 1</a></li>
-          <li class = "barStuff"><a href="geo.html">Geometry</a></li>
-          <li class = "barStuff"><a href="alg2.html">Algebra 2</a></li>
-          <li class = "barStuff"><a href="precalc.html">Precalculus</a></li>
-          <li class = "barStuff"><a href="calcAB.html">Calculus AB</a></li>
-          <li class = "barStuff"><a href="calcBC.html">Calculus BC</a></li>
-          <li class = "barStuff"><a href="statistics.html">Statistics</a></li>
-          <li class = "barStuff"><a href="trig.html">Trigonometry</a></li>
-          <li class = "barStuff"><a href="unitConversion.html">Unit Conversion</a></li>
-        </ul>
-      </nav>
+      
 
       <!-- Precalc is so cool! -->
       <h1> Precalculus! </h1>
@@ -53,9 +56,11 @@
 
       <!-- Intercepts -->
       <h4> Intercepts </h4>
-      <p> x-intercepts: let y = 0 and solve for x</p>
-      <p> y-intercepts: let x = 0 and solve for y</p>
-      <p> PLEASE write intercepts in coordinate form! Ex. (0, 5)</p>
+      <ul>
+        <li> x-intercepts: let y = 0 and solve for x</li>
+        <li> y-intercepts: let x = 0 and solve for y</li>
+        <li> PLEASE write intercepts in coordinate form! Ex. (0, 5)</li>
+      </ul>
 
       <!-- Symmetry -->
       <h4> Symmetry </h4>
@@ -404,6 +409,183 @@
           <li> Angle between vectors u and v:</li>
           <img src = "assets/Precalc/anglebet.jpg" class = "notes">
           <li>Orthogonal Vectors: u <span>&#183;</span> v = 0</li>
+       </ul>
+
+       <h4> Chapter 7 and 8 </h4>
+       <h4> Solving Systems of Equations </h4>
+
+       <img src = "assets/Precalc/matrix.png">
+       <p> Matrix </p>
+
+       <img src = "assets/Precalc/aug.png">
+       <p> Augmented Matrix </p>
+
+       <h4> Matrices </h4>
+       <ul>
+          <li> Way to express a system of linear equations. Only the coefficient in present</li>
+          <li> Augmented Matrices: A matrix with the answer to each system on the right side. It is separated by 3 vertical dots or a line.</li>
+          <li> Whenever you change one side, you change the other. </li>
+       </ul>
+
+       <h4> Forms for Matrices and Systems of Linear Equations </h4>
+       <ul>
+          <li> Row-Echelon Form: x, y, and z, have a coefficient of 1. Solve by back substitution.</li>
+          <li> Gaussian Elimination = row-echelon form </li>
+          <li> Reduced Row-Echelon Form: x, y, and z are already clearly solved and have a coefficient of 1.</li>
+          <li> Gauss-Jordan Elimination = Reduced Row Echelon Form</li>
+          <li> Back Substitution: Plug in z in the y equation then plug in z and y into the x equation</li>
+       </ul>
+
+       <img src = "assets/Precalc/reduced.png">
+       <p> Reduced Row Echelon Form</p>
+
+       <h4> Inverse of a Square Matrix </h4>
+       <ol>
+          <li> Make an augmented matrix where the right side is equal to a reduced row echelon form</li>
+          <li> Make the left hand side into a reduced row echelon form. </li>
+          <li> The right hand side will be the inverse matrix </li>
+       </ol>
+
+       <h4> Determinants </h4>
+
+       <h5> 2x2 </h5>
+       <img src = "assets/Precalc/deter2.png">
+       <ol>
+          <li> Cross multiply a <span>&#183;</span> d and b <span>&#183;</span> c</li>
+          <li> Subtract the product of ad from bc</li>
+       </ol>
+
+       <h5> Terms (needed for 3x3 and greater) </h5>
+       <img src = "assets/Precalc/matrix3.png">
+       <ul>
+          <li> Refer to this section for the 3x3 section </li>
+          <li> Minor: determinant of a matrix with a row and column crossed out </li>
+          <li> Cofactor: a minor that changes signs depending on where it is in the original matrix. Refer to the image above.</li>
+       </ul>
+
+       <h5> 3x3 </h5>
+       <img src = "assets/Precalc/deter3.png">
+       <ol>
+          <li> Pick one row of the matrix to cross out </li>
+          <li> Make 3 2x2 matrices by crossing out one different column for each matrix. The 4 remaining values are the 2x2 matrix </li>
+          <li> Solve for each matrix's determinant (minors). You will have 3 minors </li>
+          <li> Change the 3 minors to cofactors accordingly </li>
+          <li> Add all the cofactors together to get the determinant of the matrix</li>
+       </ol>
+
+       <h4> Cramer's Rule </h4>
+       <img src = "assets/Precalc/cramer.jpg">
+       <ul>
+          <li> Way to find the x and y of a system of linear equations </li>
+          <li> Find the determinant of D, Dx, and Dy then use the formulas above to find x and y (x, y)</li>
+       </ul>
+
+       <h4> Chapter 9 </h4>
+       <h4> Factorials </h4>
+       <ul>
+          <li> Represented by n!</li>
+          <li> Multiply by every number leading up to n </li>
+          <li> Ex. 5! = 1 <span>&#183;</span> 2 <span>&#183;</span> 3 <span>&#183;</span> 4 <span>&#183;</span> 5</li>
+          <li> Used for combinations and permutations </li>
+       </ul>
+
+       <h4> n </h4>
+       <ul>
+          <li> Represents the term of a number in a sequence. Essentially where the number is in a sequence. </li>
+       </ul>
+
+       <h4> Summation Notation </h4>
+       <img src = "assets/Precalc/sigma.jpg">
+       <ul>
+          <li> Easy way to write a summation of a sequence </li>
+          <li> n = the amount of times the right side is added to itself (represents the last term of the sequence)</li>
+          <li> i = contributes to the amount of times the right side is added to itself (represents the first term of the sequence)</li>
+          <li> If i does not equal 1, the sequence starts at another place in the sequence </li>
+       </ul>
+
+       <h4> Infinite Sequence </h4>
+       <ul>
+          <li> A sequence that goes on infinitely. n = infinity </li>
+          <li> Partial sum: a limit (n) is set on the infinite sequence. </li>
+          <li> Infinite series: sum of all terms in an infinite series </li>
+       </ul>
+
+       <h4> Arithmetic sequences </h4>
+       <img src = "assets/Precalc/arith.jpg">
+       <ul>
+          <li> Finds the nth term of a sequence. Has LINEAR nth term rules (addition/subtraction). </li>
+          <li> d = common difference (pattern in the sequence). Ex. add 6 for each term </li>
+          <li> The bottom formula is the same as point slope form</li>
+       </ul>
+
+       <img src = "assets/Precalc/term.jpg">
+       <ul>
+          <li> Used to find d in an arithmetic sequence. You can use d to find the arithmetic equation of the sequence </li>
+          <li> Same formula used to find the slope of a line </li>
+          <li> Numerator: subtract the two numbers </li>
+          <li> Denominator: the subtraction of the nth term of both numbers </li>
+        </ul>
+
+       <img src = "assets/Precalc/sum.jpg">
+       <ul>
+          <li> Efficient way to find the sum of the first n terms of an arithmetic sequence </li>
+       </ul>
+
+       <h4> Geometric Sequences </h4>
+       <img src = "assets/Precalc/geo.jpg">
+       <ul>
+        <li> Finds the nth term of a sequence. Has EXPONENTIAL nth term rules (addition/subtraction). </li>
+        <li> d = common difference (pattern in the sequence). Ex. add 6 for each term </li>
+       </ul>
+
+       <img src = "assets/Precalc/geosum.jpg">
+       <ul>
+          <li> Finds the sum of the first n terms of a geometric sequence </li>
+       </ul>
+
+       <img src = "assets/Precalc/geoinfin.jpg">
+       <ul>
+          <li> Finds the sum of an infinite geometric series </li>
+       </ul>
+
+       <h4> Binomial Theorem </h4>
+       <img src = "assets/Precalc/pascal.png">
+       <ul>
+          <li> Use the triangle above to expand a binomial by its respective exponent </li>
+          <li> Multiply each term in the expansion according to the triangle </li>
+          <li> First row: exponent = 0</li>
+          <li> Second row: exponent = 1</li>
+          <li> Third row: exponent = 2</li>
+          <li> Fourth row: exponent = 4. etc.</li>
+       </ul>
+
+       <h5> Example </h5>
+       <ol>
+          <li> Expand (2x + 3y) <sup> 4 </sup></li>
+          <li> Binomial is to the power of 4 </li>
+          <li> 1(2x)<sup>4</sup> (3y) <sup>0</sup> + 4(2x)<sup>3</sup>(3y)<sup>1</sup> + 6(2x)<sup>2</sup>(3y)<sup>2</sup> + 4(2x)<sup>1</sup>(3y)<sup>3</sup> + 1(2x)<sup>0</sup>(3y)<sup>4</sup></li>
+          <li> Simplify </li>
+       </ol>
+
+       <h4> Mathematical Induction </h4>
+       <p> Used for calculus. Plug in the formulas below accordingly to solve the summation. </p>
+
+       <h5> i </h5>
+       <img src = "assets/Precalc/single.jpg">
+
+       <h5> i <sup>2</sup></h5>
+       <img src = "assets/Precalc/square.jpg">
+
+       <h5> i <sup>3</sup></h5>
+       <img src = "assets/Precalc/cube.jpg">
+
+       <h4> Calculus </h4>
+       <h4> Riemman Sum</h4>
+       <img src = "assets/Precalc/trix.jpg">
+       <img src = "assets/Precalc/rieman.jpg">
+       <ul>
+          <li> Used to find the area between a function and the x axis given domain [a, b]</li>
+          <li> [a, b] = the a and b that is used to find ∆x </li>
        </ul>
 
     </body>
