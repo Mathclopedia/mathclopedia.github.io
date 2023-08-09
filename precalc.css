@@ -7,10 +7,9 @@
     font-display: swap;
 }
 
-
 body {
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 70px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
@@ -21,6 +20,9 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: pink;
+    position:fixed;
+    top:0;
+    width: 100%;
 }
 
 .barStuff {
@@ -38,6 +40,10 @@ body {
 
 .barStuff a:hover {
     background-color: #e5a8a8;
+}
+
+h1 {
+    margin-left: 15px;
 }
 
 h3 {

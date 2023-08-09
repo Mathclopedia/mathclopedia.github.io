@@ -6,6 +6,8 @@
 <span>&#183;</span> makes multiplication dots
 &lt;like&gt; for <>
 ∆
+<span>&#8804;</span> less than or equal to 
+<span>&#8805;</span> greater than or equal to 
 
 Hello! Welcome to Mathclopedia!
 
