@@ -1,7 +1,7 @@
 /* STYLE NAV BAR */
 body {
     margin-left: 0px;
-    margin-top: 0px;
+    margin-top: 70px;
     margin-right: 0px;
     margin-bottom: 0px;
   }
@@ -29,8 +29,30 @@ body {
   
   .barStuff a:hover {
     background-color: #e5a8a8;
-  }
+}
 
 h4 {
     font-size: 25px;
+    margin-left: 15px;
+}
+
+h5{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+img {
+    height: 200px;
+    margin-left: 15px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(255, 156, 156);
+}
+
+.graphs {
+    height: 300px;
 }
