@@ -5,6 +5,7 @@
 ∞ = infinity
 ∪ = union 
 √ 
+°
 <sub> for small text
 <sup> for exponents
 <span>&#183;</span> makes multiplication dots

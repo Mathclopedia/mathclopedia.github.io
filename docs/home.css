@@ -46,35 +46,18 @@ img {
     /*border: 8px solid rgb(195, 75, 95)*/
   }
 
-
-/*Animation binded to math message (tis broken*/
-/*
-@keyframes appear {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-#math {
-    text-align: center;
-    padding: 270px 0;
-    font-size: 30px;
-    animation: appear 7s;
-    animation-fill-mode: forwards;
-}
-*/
-
 /* dropdown menu*/
 #math {
     display: none;
 }
 
 #select {
-    font-size: 30px;
+    font-size: 48px;
 }
 
 .dropdown { 
     display: inline-block; 
-    position: relative; 
+    position: relative;
   } 
 
 .dropdown-content {
