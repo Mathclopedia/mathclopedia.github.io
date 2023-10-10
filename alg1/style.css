@@ -1,17 +1,9 @@
-@font-face {
-    font-family: 'Century Gothic';
-    src: url('centuryGothic/CenturyGothic.woff2') format('woff2'),
-        url('centuryGothic/CenturyGothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  body {
+body {
     margin-left: 0px;
     margin-top: 70px;
     margin-right: 0px;
     margin-bottom: 0px;
+    
   }
   
   .bar {
