@@ -1,78 +1,81 @@
-@font-face {
-    font-family: 'Century Gothic';
-    src: url('../centuryGothic/CenturyGothic.woff2') format('woff2'),
-        url('../centuryGothic/CenturyGothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  body {
-    margin-left: 0px;
-    margin-top: 70px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: pink;
-    position:fixed;
-    top:0;
-    width: 100%;
-  }
-  
-  .barStuff {
-    float: left;
-  }
-  
-  .barStuff a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-  }
-  
-  .barStuff a:hover {
-    background-color: #e5a8a8;
-  }
-  
-  h1 {
-    margin-left: 15px;
-  }
-  
-  h3 {
-    font-size: 30px;
-    margin-left: 15px;
-  }
-  
-  h4 {
-    font-size: 25px;
-    margin-left: 15px;
-  }
-  
-  h5{
-    font-size: 15px;
-    margin-left: 15px;
-  }
-  
-  p {
-    margin-left: 15px;
-  }
-  
-  img {
-    height: 200px;
-    margin-left: 15px;
-    border-style: solid;
-    border-width: 7px;
-    border-color: rgb(255, 156, 156);
-  }
-  
-  .graphs {
-    height: 300px;
-  }
+/*@font-face {
+  font-family: 'Century Gothic';
+  src: url('centuryGothic/CenturyGothic.woff2') format('woff2'),
+      url('centuryGothic/CenturyGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+body {
+  margin-left: 0px;
+  margin-top: 70px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: pink;
+  position:fixed;
+  top:0;
+  width: 100%;
+}
+
+.barStuff {
+  float: left;
+  display: inline;
+  padding: 15px;
+}
+
+.barStuff a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+}
+
+.barStuff a:hover {
+  background-color: #e5a8a8;
+}
+
+h1 {
+  margin-left: 15px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+h4 {
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+h5{
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+p {
+  margin-left: 15px;
+}
+
+img {
+  height: 200px;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: rgb(255, 156, 156);
+}
+
+.graphs {
+  height: 300px;
+}

@@ -8,7 +8,7 @@
 */
 
 /*font*/
-@font-face {
+/*@font-face {
     font-family: 'Century Gothic';
     src: url('century gothic/CenturyGothic.woff2') format('woff2'),
         url('century gothic/CenturyGothic.woff') format('woff');
@@ -16,9 +16,10 @@
     font-style: normal;
     font-display: swap;
 }
+*/
 
 body {
-    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /*welcome page*/
