@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Trigonometry</title>
-        <link href="../precalc.css" rel="stylesheet" type="text/css" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Trigonometry</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script src="script.js" defer></script>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
     </head>
 
       <body>
         
         <nav> 
           <ul class = "bar">
-            <li class = "barStuff"><a href="alg1.html">Algebra 1</a></li>
-            <li class = "barStuff"><a href="geo.html">Geometry</a></li>
-            <li class = "barStuff"><a href="alg2.html">Algebra 2</a></li>
-            <li class = "barStuff"><a href="precalc.html">Precalculus</a></li>
-            <li class = "barStuff"><a href="calcAB.html">Calculus AB</a></li>
-            <li class = "barStuff"><a href="calcBC.html">Calculus BC</a></li>
-            <li class = "barStuff"><a href="statistics.html">Statistics</a></li>
-            <li class = "barStuff"><a href="trig.html">Trigonometry</a></li>
-            <li class = "barStuff"><a href="unitConversion.html">Unit Conversion</a></li>
-            <li class = "barStuff"><a href="aboutUS.html">About Us!</a></li>
+            <a id = "alg1" href = "../alg1/index.html"> Algebra 1 </a>
+            <a id = "geo" href = "../geo/index.html"> Geometry </a>
+            <a id = "alg2" href = "../alg2/index.html"> Algebra 2 </a>
+            <a id = "precalc" href = "../precalc/index.html"> Precalculus </a>
+            <a id = "calcAB" href = "../calcAB/index.html"> Calculus AB </a>
+            <a id = "calcBC" href = "../calcBC/index.html"> Calculus BC </a>
+            <a id = "stats" href = "../statistics/index.html"> Statistics </a>
+            <a id = "unitCircle" href = "../trig/index.html"> Trigonometry </a>
+            <a id = "unitConversion" href = "../unitConversion/index.html"> Unit Conversion </a>
+            <a id = "aboutUs" href = "../aboutUs/index.html"> About Us! </a>
           </ul>
         </nav>
 
+      <div class = "makeItBouncy">
        <h1>Trigonometry</h1>
        <p> We know that trigonometry sounds scary with all the big, fancy words. Don't worry :D. It's not as scary as it seems.</p>
+      </div>
 
+      <div class = "makeItBouncy">
       <h3> Right Triangles </h3>
+      <img src = "../assets/trig/15.jpg">
       <!-- insert image of a right triangle on a coordinate plane -->
       <p> This is where sin, cos, and tan come in! yay! </p>
       <ul>
         <li> This principle is based on the coordinate plane </li>
-        <li> Opposite: the side that is across from the angle </li>
-        <li> Adjacent: the side that is below the angle </li>
+        <li> Opposite: the side that is across from the angle (y value on the coordinate plane)</li>
+        <li> Adjacent: the side that is below the angle (x value on the coordinate plane)</li>
         <li> Hypotenuse: the slanted side </li>
         <li> Each angle's corresponding side is across from it (ex. 30°'s corresponding side is 1)</li>
         <li style="margin-left:2em"> A smaller side will have a corresponding smaller angle. A larger side will have a corresponding larger angle </li>
       </ul> 
+      </div>
 
+      <div class = "makeItBouncy">
       <h3> The Common Triangles You Will See</h3>
       <!-- insert image of 30, 60, 90 and 45, 45, 90 -->
+      <img src = "../assets/trig/16.jpg">
       <ul>
-        <li> This is the basis of the unit circle, which we will get into later of course. </li>
+        <li> This is the basis of the unit circle, which we will get into later of course. Make sure to remember these</li>
+        <li> To make it easier to memorize, remember that the smallest angle will have the smallest side</li>
         <li> Most trigonometry problems involve knowing this triangle and the unit circle values </li>
+        <li> The 45, 45, 90 is an isoceles triangle. The 30, 60, 90 is a scalene triangle </li>
       </ul>
+      </div>
 
+      <div class = "makeItBouncy">
       <!-- Leave this space for tips; use the lower part for trigonometry -->
       <h3> Soh Cah Toa </h3>
       <!-- Draw a soh cah toa -->
+      <img src = "../assets/trig/18.jpg">
       <ul>
         <li> S: sin (sine) </li>
         <li style="margin-left:2em"> oh: stands for opposite/hypotenuse </li>
@@ -56,14 +75,19 @@
         <li style="margin-left:2em"> oa: stands for opposite/adjacent </li>
         <li> This is how you solve for the sin, cos, or tan of a triangle </li>
       </ul>
+      </div>
 
+      <div class = "makeItBouncy">
       <h3> How to solve for sin, cos, tan </h3>
+      <img src = "../assets/trig/17.jpg">
       <!-- insert example -->
       <ol>
         <li> Tilt the triangle so that the desired angle is on the bottom </li>
         <li> Look above at the Soh Cah Toa cheat sheet. Use the given values of each side to find the sin/cos/tan </li>
       </ol>
+      </div>
 
+      <div class = "makeItBouncy">
        <h3> How to Determine if sin/cos/tan is Negative or Positive </h3>
        <!-- add later -->
        <h4> A few notes </h4>
@@ -80,15 +104,20 @@
         <li> Apply the negative/positive value to your answer </li>
         <li> For tan, find out if the values for sin and cos are positive/negative. Divide sin/cos</li>
        </ol>
+      </div>
 
+      <div class = "makeItBouncy">
        <h3> Reference angles </h3>
        <!-- Insert picture of the reference angles -->
+       <img src = "../assets/trig/1.JPG">
        <ul>
         <li> The angle between the given angle and the closest x axis </li>
         <li> This is VERY important for the unit circle, which is why it's directly above it </li>
         <li> If you know the reference angle to any angle, finding the coordinates on a unit circle will be easy </li>
        </ul>
+      </div>
 
+      <div class = "makeItBouncy">
        <h1> Unit Circle!!! </h1>
        <div id = "unitCircle">
           <img src="../assets/unitcircle.png" alt="A picture of the unit circle.">
@@ -97,11 +126,21 @@
           <p> Secondly, read this if you know what sin, cos, tan, reference angles and right triangles are. If you don't, read the info above and come back later. </p>
           <ol>
             <li> Find the reference angle </li>
-            <li> Find the sin, cos, or tan of the reference angle depending on what the question asks for </li>
+            <li> Find the sin, cos, or tan of the reference angle. You do this by remembering the side lengths of the 30, 60, 90 or 45, 45, 90 triangles </li>
             <li> Check which quadrant the angle is in </li>
             <li> If you are finding sin, think about if y is negative or positive in that quadrant. If you are finding cos, think about if x is negative or positive quadrant. <br> If you are finding tan, find the negative/positive value of both x and y then divide sinx/cosx</li>
             <li> Switch the sign of the answer accordingly </li>
             <li> This takes some time, but don't get frustrated!</li>
+          </ol>
+
+          <h3> Let's Try this Together! </h3>
+          <ol>
+            <li> Let's find sin 7π/6 (210°) </li>
+            <li> Find the reference angle. In this case, it is π/6</li>
+            <li> What is sin of π/6? If you remember the 30, 60, 90 triangle, it is 1/2 </li>
+            <li> Which quadrant is 7π/6 on the coordinate plane? It's in quadrant 3 where, where x and y are negative </li>
+            <li> What does sin represent? Since we used the opposite angle (the y), sin represents the y value on a coordinate plane. </li>
+            <li> Since y is negative in quadrant 3, we change 1/2 to -1/2 </li>
           </ol>
 
           <h3> Why the angles 0, π/2, π, and 3π/2 are Different From the Right Triangle Values </h3>
@@ -114,30 +153,42 @@
             <li> When the angle is 3π/2 (270°), the value is (0,-1) (cos 3π/2 = 0, sin 3π/2 = -1)</li>
           </ol>
         </div>
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> csc, sec, cot </h3>
         <ul>
           <li> These are just 1/sin, 1/cos, and 1/tan respectively </li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Trig Identities </h3>
         <!-- Insert pdf of trig identities -->
         <img src = "../assets/trig/trigidentities.JPG">
         <ul>
           <li> Used when simplifying big trigonometric equations </li>
         </ul>
+        </div>
         
+        <div class = "makeItBouncy">
         <h3> Inverse Trig Functions </h3>
         <!-- insert picture; include arc tan -->
+        <img src = "../assets/trig/7.jpg">
         <ul>
-          <li> IS NOT 1/trig function!! </li>
+          <li> IS NOT 1/trig function!! It is sometimes written as arcsin, arccos, arctan</li>
           <li> It is used to find the angle of a trig function using its value on a unit circle </li>
           <li> A calculator only computes quadrant 1 and 4 for inverse sin and tan functions. For cos, it computes only quadrant 1 and 2. </li>
           <li> If you are asked to find the inverse trig function in a quadrant out of the calculator's range, pretend the computed angle is a reference angle </li>
           <li> Then, add the angle plus/minus the x axis pertaining to the reference angle </li>
           <!-- add example cuz its confusing af -->
+          <img src = "../assets/trig/8.jpg">
+          <p> What the calculator can compute </p>
+          <img src = "../assets/trig/3.jpg">
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Graphing sin, cos </h3>
         <!-- Put the formula -->
         <h4> A few notes: </h4>
@@ -151,8 +202,11 @@
           <li> To find the range of values of a period, add the period + h </li>
           <li> Make sure that x has no coefficient. If it does, distribute the coefficient out. The coefficient becomes b </li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h4> Sin </h4>
+        <img src = "../assets/trig/3.jpg">
         <!-- Insert graph of sin x -->
         <ul>
           <li> Is an odd function (not symmetrical) </li>
@@ -160,16 +214,21 @@
           <li> The first point is on the midline, second point is |a| +/- k (depending on the value of a), third is on the midline, fourth point is |a| +/- k (depending on the value of a), last point is on the midline </li>
           <li> If b is negative, the negative can be taken outside of the function (odd function) </li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h4> Cos </h4>
         <!-- Insert graph of cos x-->
+        <img src = "../assets/trig/9.jpg">
         <ul>
           <li> Is an even function (symmetrical) </li>
           <li> If a is positive, the function begins by going down. If a is negative, the function begins by going up </li>
           <li> the first point is |a| +/- k (depending on the value of a), second point is on the midline, third point is |a| +/- k (depending on the value of a), fourth point is on the midline, fifth point is |a| +/- k (depending on the value of a)</li>
           <li> If b is negative, the negative can be dropped out completely (even function)</li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Graphing tan and cot </h3>
 
         <h4> A few notes </h4>
@@ -181,9 +240,12 @@
           <li> Point of influction (p.o.i): the mipoint of a tan function </li>
           <li> h is NOT the first point on a tan function like sin and cos. It is the middle point </li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h4> Tan </h4>
         <!-- insert a graph -->
+        <img src = "../assets/trig/4.jpg">
         <ul>
           <li> Is an odd function (non symmetrical) </li>
           <li> If b is negative, the negative can be taken outside of the function (odd function) </li>
@@ -191,35 +253,54 @@
           <li> The 2nd and 4th point are determined by the amplitude and if the equation is negative or positive </li>
           <li> If a is negative, the 2nd point is higher and 4th point is lower. If a is positive, the 2nd point is lower and the 4th point is higher </li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h4> Cot </h4>
         <!-- insert a graph -->
+        <img src = "../assets/trig/10.jpg">
         <ul>
           <li> It is the same as a tan function, but the points are graphed oppositely </li>
           <li> It looks like tan was mirrored across the y axis </li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Graphing csc and sec </h3>
         <ul>
           <li> It's not as scary as you might think. It is just grpahing cos and sin like normal, but on each elevated point, draw a parabola </li>
           <li> The points on the midpoint are asymptotes of the parabolas </li>
           <li> The parabolas are the graphs. Draw the cos and sin graphs like normal and once you add the parabolas, erase the original graph. The original graph was just a tempalte to help graph csc/sec </li>
         </ul>
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Law of Sines </h3>
         <!-- Insert image of the formula -->
+        <img src = "../assets/trig/15.jpg">
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Law of cosines </h3>
         <!-- remember to put both of the formulas -->
+        <img src = "../assets/trig/12.jpg">
+        <img src = "../assets/trig/13.jpg">
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Area of an oblique traingle (not a right triangle) </h3>
         <!-- Insert the formula -->
+        <img src = "../assets/trig/14.jpg">
+        </div>
 
+        <div class = "makeItBouncy">
         <h3> Heron's Formula </h3>
         <!-- INsert heron's formula-->
+        <img src = "../assets/trig/5.jpg">
         <ul>
           <li> Used to find the area of a triangle </li>
         </ul>
+        </div>
 
         
 
