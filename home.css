@@ -1,33 +1,35 @@
 /*animation binded to welcome*/
 
-/*
-@keyframes disappear {
-    0% {opacity: 1;}
-    100% {opacity: 0;}
-}
-*/
 
-/*font*/
-/*@font-face {
-    font-family: 'Century Gothic';
-    src: url('century gothic/CenturyGothic.woff2') format('woff2'),
-        url('century gothic/CenturyGothic.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+        
 }
-*/
 
 body {
     font-family: "Poppins", sans-serif;
 }
 
 /*welcome page*/
-#welcome {
+.welcome {
     text-align: center;
     padding: 200px 0;
     font-size: 22px;
     color: pink;
+    animation: fade-up 1s;
+}
+
+#start {
+    font-size: 24px;
 }
 
 
@@ -38,7 +40,7 @@ button {
     border-radius: 25px;
     background-position: left top;
     background-repeat: repeat;
-    font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
 /* STYLE IMAGES */
@@ -50,6 +52,7 @@ img {
 /* dropdown menu*/
 #math {
     display: none;
+    animation: fade-up 1s;
 }
 
 #select {
