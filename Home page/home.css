@@ -1,0 +1,57 @@
+/*animation binded to welcome*/
+
+/*
+@keyframes disappear {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+*/
+
+#welcome {
+    text-align: center;
+    padding: 230px;
+    font-size: 24px;
+    color: pink;
+    font-family: Century Gothic;
+    /*font-family: Bahnschrift Light;*/
+    /*animation: disappear 3s 3s;
+    animation-fill-mode: forwards;
+    */
+}
+
+
+/* STYLE BUTTON */
+button { 
+    margin-top: 5px;
+    font-family: Century Gothic;
+    display: inline-block;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+  }
+
+/* STYLE IMAGES */
+img {
+    height: 8em;
+    /*border: 4px solid rgb(195, 75, 95)*/
+  }
+
+/*Animation binded to math message (tis broken*/
+/*
+@keyframes appear {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#math {
+    text-align: center;
+    padding: 270px 0;
+    font-size: 30px;
+    animation: appear 7s;
+    animation-fill-mode: forwards;
+}
+*/
+
+#math {
+    display: none;
+}
