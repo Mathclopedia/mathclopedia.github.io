@@ -29,6 +29,8 @@ body {
 
 .bar {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: pink;
   position:fixed;
@@ -38,12 +40,9 @@ body {
 
 .barStuff {
   float: left;
-  display: inline;
-  padding: 15px;
 }
 
 .barStuff a {
-  text-decoration: none;
   display: block;
   color: black;
   text-align: center;
