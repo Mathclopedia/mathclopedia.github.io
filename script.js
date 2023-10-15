@@ -1,4 +1,5 @@
 //start button
+/*
 var startButton = document.getElementById("start");
 
 //asks what math they're in
@@ -11,3 +12,4 @@ function start() {
     welcome.innerHTML = math.innerHTML;
     startButton.style.display = "none";
 }
+*/
