@@ -78,6 +78,7 @@ p {
   margin-left: 15px;
 }
 
+/* Image stuff */
 img {
   height: 200px;
   margin-left: 15px;
@@ -88,4 +89,8 @@ img {
 
 .graphs {
   height: 300px;
+}
+
+.formula {
+  height: 400px;
 }
