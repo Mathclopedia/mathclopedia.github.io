@@ -57,27 +57,40 @@ body {
   background-color: #e5a8a8;
 }
 
+/* decorations */
+
 h1 {
   margin-left: 15px;
+  font-size: 50px;
+  text-decoration-line: underline;
+  text-decoration-style:dotted;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 15px;
+  color: #83BCFF;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 35px;
   margin-left: 15px;
+  color: #8547d1da;
 }
 
 h5{
-  font-size: 15px;
+  font-size: 25px;
   margin-left: 15px;
+  color: rgb(235, 116, 199);
 }
 
 p {
-  margin-left: 15px;
+  margin-left: 25px;
+  font-size: 20px;
+}
+
+li {
+  font-size: 25px;
 }
 
 img {
@@ -90,4 +103,12 @@ img {
 
 .graphs {
   height: 300px;
+}
+
+.formula {
+  height: 100px;
+}
+
+.biggerFormula {
+  height: 200px;
 }
