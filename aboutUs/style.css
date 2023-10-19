@@ -19,41 +19,42 @@
   }
 }
 
-body {
-  margin-left: 0px;
-  margin-top: 70px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  font-family: "Poppins", sans-serif;
-}
 
-.bar {
+
+body {margin:0;}
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: pink;
-  position:fixed;
-  top:0;
+  position: fixed;
+  top: 0;
   width: 100%;
 }
 
-.barStuff {
+li {
   float: left;
 }
 
-.barStuff a {
+li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
 }
 
-.barStuff a:hover {
-  background-color: #e5a8a8;
+li a:hover:not(.active) {
+  background-color: rgb(254, 136, 153);
 }
+
+.active {
+  background-color: rgb(254, 136, 153);
+}
+  
 
 h1 {
   margin-left: 15px;
