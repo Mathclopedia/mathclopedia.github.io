@@ -29,34 +29,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: pink;
-  position:fixed;
-  top:0;
-  width: 100%;
-}
-
-.barStuff {
-  float: left;
-}
-
-.barStuff a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-}
-
-.barStuff a:hover {
-  background-color: #e5a8a8;
-}
-
 h1 {
   margin-left: 15px;
 }

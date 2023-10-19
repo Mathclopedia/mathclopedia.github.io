@@ -19,42 +19,13 @@
   }
 }
 
-
-
-body {margin:0;}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: pink;
-  position: fixed;
-  top: 0;
-  width: 100%;
+body {
+  margin-left: 0px;
+  margin-top: 70px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-family: "Poppins", sans-serif;
 }
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-}
-
-li a:hover:not(.active) {
-  background-color: rgb(254, 136, 153);
-}
-
-.active {
-  background-color: rgb(254, 136, 153);
-}
-  
 
 h1 {
   margin-left: 15px;
