@@ -90,3 +90,10 @@ img {
     background-color: #fec4ff;
 }
 
+img {
+    border-style: solid;
+    border-radius: 2%;
+    height: 200px;
+    border-color: pink;
+    border-width: 7px;
+}
