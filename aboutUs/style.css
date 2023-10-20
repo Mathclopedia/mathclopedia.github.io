@@ -23,7 +23,7 @@
 
 body {
   margin-left: 0px;
-  margin-top: 70px;
+  margin-top: 85px;
   margin-right: 0px;
   margin-bottom: 0px;
   font-family: "Poppins", sans-serif;
@@ -71,8 +71,10 @@ body {
 h1 {
   margin-left: 15px;
   font-size: 50px;
-  text-decoration-line: underline;
-  text-decoration-style:dotted;
+}
+
+h2 {
+  margin-left: 15px;
 }
 
 h3 {
@@ -102,14 +104,6 @@ li {
   font-size: 25px;
 }
 
-img {
-  height: 200px;
-  margin-left: 15px;
-  border-style: solid;
-  border-width: 7px;
-  border-color: rgb(255, 156, 156);
-}
-
 .graphs {
   height: 300px;
 }
@@ -120,4 +114,14 @@ img {
 
 .biggerFormula {
   height: 200px;
+}
+
+#sophie {
+  border-radius: 3px;
+  transform: rotate(90deg);
+  border-style: solid;
+  border-width: 14px;
+  height: 300px;
+  margin-left: 0px;
+  border-color: rgb(255, 156, 156);
 }
