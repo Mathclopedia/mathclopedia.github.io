@@ -19,35 +19,85 @@
   }
 }
 
+/* the rest */
+
 body {
   margin-left: 0px;
-  margin-top: 70px;
+  margin-top: 85px;
   margin-right: 0px;
   margin-bottom: 0px;
   font-family: "Poppins", sans-serif;
 }
 
+ #navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 182, 194);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+ }
+ 
+ .bar {
+  float: left;
+  font-size: 20px;
+ }
+ 
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ li a:hover:not(.active) {
+  background-color: lightcoral;
+ }
+ 
+ 
+ .active {
+ background-color: lightcoral;
+ }
+ 
+
+/* decorations */
+
 h1 {
   margin-left: 15px;
+  font-size: 50px;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 15px;
+  color: #83BCFF;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 35px;
   margin-left: 15px;
+  color: #8547d1da;
 }
 
 h5{
-  font-size: 15px;
+  font-size: 25px;
   margin-left: 15px;
+  color: rgb(235, 116, 199);
 }
 
 p {
-  margin-left: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+li {
+  font-size: 25px;
 }
 
 img {
@@ -58,6 +108,18 @@ img {
   border-color: rgb(255, 156, 156);
 }
 
+.XXL {
+  height: 400px;
+}
+
 .graphs {
   height: 300px;
+}
+
+.formula {
+  height: 100px;
+}
+
+.biggerFormula {
+  height: 200px;
 }

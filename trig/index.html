@@ -13,61 +13,21 @@
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
     </head>
 
-  <body>
-
-    <style>
-   body {margin:0;}
-   
-   ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: pink;
-     position: fixed;
-     top: 0;
-     width: 100%;
-   }
-   
-   li {
-     float: left;
-   }
-   
-   li a {
-     display: block;
-     color: white;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-   }
-   
-   li a:hover:not(.active) {
-     background-color: lightcoral;
-   }
-   
-   .active {
-     background-color: lightcoral;
-   }
- 
-   
-   </style>
  <body>
- 
-   <ul>
-     <li><a id = "alg1" href = "../alg1/index.html">Algebra 1</a></li>
-     <li><a id = "geo" href = "../geo/index.html">Geometry</a></li>
-     <li><a id = "alg2" href = "../alg2/index.html">Algebra 2</a></li>
-     <li><a id = "precalc" href = "../precalc/index.html">Precalculus</a></li>
-     <li><a id = "calcAB" href = "../calcAB/index.html">Calculus AB</a></li>
-     <li><a id = "calcBC" href = "../calcBC/index.html">Calculus BC</a></li>
-     <li><a id = "statistics" href = "../statistics/index.html">Statistics</a></li>
-     <li><a class="active" href = "../trig/index.html">Trigonometry</a></li>
-     <li><a id = "unitConversion" href = "../unitConversion/index.html">Unit Conversion</a></li>
-     <li><a id = "aboutUs" href = "../aboutUs/index.html">About Us!</a></li>
+
+  <ul id = "navBar">
+    <li class = "bar"><a id = "alg1" href = "../alg1/index.html">Algebra 1</a></li>
+    <li class = "bar"><a id = "geo" href = "../geo/index.html">Geometry</a></li>
+    <li class = "bar"><a id = "alg2" href = "../alg2/index.html">Algebra 2</a></li>
+    <li class = "bar"><a href = "../precalc/index.html">Precalculus</a></li>
+    <li class = "bar"><a id = "calcAB" href = "../calcAB/index.html">Calculus AB</a></li>
+    <li class = "bar"><a id = "calcBC" href = "../calcBC/index.html">Calculus BC</a></li>
+    <li class = "bar"><a id = "stats" href = "../statistics/index.html">Statistics</a></li>
+    <li class = "bar"><a class="active" href = "../trig/index.html">Trigonometry</a></li>
+    <li class = "bar"><a id = "unitConversion" href = "../unitConversion/index.html">Unit Conversion</a></li>
+    <li class = "bar"><a id = "aboutUs" href = "../aboutUs/index.html">About Us!</a></li>
     </ul>
- 
-    <div style="padding:20px;margin-top:30px;height:1500px;">
+
       <div class = "makeItBouncy">
        <h1>Trigonometry</h1>
        <p> We know that trigonometry sounds scary with all the big, fancy words. Don't worry :D. It's not as scary as it seems.</p>
@@ -102,7 +62,7 @@
 
       <div class = "makeItBouncy">
       <h3> Right Triangles </h3>
-      <img src = "../assets/trig/15.jpg">
+      <img src = "../assets/trig/15.jpg" class="graphs">
       <!-- insert image of a right triangle on a coordinate plane -->
       <p> This is where sin, cos, and tan come in! yay! </p>
       <ul>
@@ -118,7 +78,7 @@
       <div class = "makeItBouncy">
       <h3> The Common Triangles You Will See</h3>
       <!-- insert image of 30, 60, 90 and 45, 45, 90 -->
-      <img src = "../assets/trig/16.jpg">
+      <img src = "../assets/trig/16.jpg" class="graphs">
       <ul>
         <li> This is the basis of the unit circle, which we will get into later of course. Make sure to remember these</li>
         <li> To make it easier to memorize, remember that the smallest angle will have the smallest side</li>
@@ -131,7 +91,7 @@
       <!-- Leave this space for tips; use the lower part for trigonometry -->
       <h3> Soh Cah Toa </h3>
       <!-- Draw a soh cah toa -->
-      <img src = "../assets/trig/18.jpg">
+      <img src = "../assets/trig/18.jpg"class="graphs">
       <ul>
         <li> S: sin (sine) </li>
         <li style="margin-left:2em"> oh: stands for opposite/hypotenuse </li>
@@ -162,7 +122,7 @@
             <li> cos = x </li>
             <li> tan = sin/cos </li>
           </ul>
-        <img src="../assets/unitcircle.png" alt="A picture of the unit circle.">
+        <img src="../assets/unitcircle.png" alt="A picture of the unit circle." id = "unitcircle">
        <ol>
         <li> Solve for the sin/cos/tan value </li>
         <li> Check the value of the angle and think about which quadrant it would be on a coordinate plane </li>
@@ -175,7 +135,7 @@
       <div class = "makeItBouncy">
        <h3> Reference angles </h3>
        <!-- Insert picture of the reference angles -->
-       <img src = "../assets/trig/1.JPG">
+       <img src = "../assets/trig/1.JPG" id = "unitcircle">
        <ul>
         <li> The angle between the given angle and the closest x axis </li>
         <li> This is VERY important for the unit circle, which is why it's directly above it </li>
@@ -186,7 +146,7 @@
       <div class = "makeItBouncy">
        <h1> Unit Circle!!! </h1>
        <div id = "unitCircle">
-          <img src="../assets/unitcircle.png" alt="A picture of the unit circle.">
+          <img src="../assets/unitcircle.png" class="graphs" id = "unitcircle">
           <h1>Here are some tips + tricks to tackle the unit circle </h1>
           <p> First of all, do NOT memorize this, it is very unnecessary </p>
           <p> Secondly, read this if you know what sin, cos, tan, reference angles and right triangles are. If you don't, read the info above and come back later. </p>
@@ -231,7 +191,7 @@
         <div class = "makeItBouncy">
         <h3> Trig Identities </h3>
         <!-- Insert pdf of trig identities -->
-        <img src = "../assets/trig/trigidentities.JPG" class = "formula">
+        <img src = "../assets/trig/trigidentities.JPG" id = "unitcircle">
         <ul>
           <li> Used when simplifying big trigonometric equations </li>
         </ul>
@@ -248,9 +208,9 @@
           <li> If you are asked to find the inverse trig function in a quadrant out of the calculator's range, pretend the computed angle is a reference angle </li>
           <li> Then, add the angle plus/minus the x axis pertaining to the reference angle </li>
           <!-- add example cuz its confusing af -->
-          <img src = "../assets/trig/8.jpg">
+          <img src = "../assets/trig/8.jpg" class="graphs">
           <p> What the calculator can compute </p>
-          <img src = "../assets/trig/3.jpg">
+          <img src = "../assets/trig/3.jpg" class="graphs">
         </ul>
         </div>
 
@@ -272,7 +232,7 @@
 
         <div class = "makeItBouncy">
         <h4> Sin </h4>
-        <img src = "../assets/trig/3.jpg">
+        <img src = "../assets/trig/3.jpg" class="graphs">
         <!-- Insert graph of sin x -->
         <ul>
           <li> Is an odd function (not symmetrical) </li>
@@ -285,7 +245,7 @@
         <div class = "makeItBouncy">
         <h4> Cos </h4>
         <!-- Insert graph of cos x-->
-        <img src = "../assets/trig/9.jpg">
+        <img src = "../assets/trig/9.jpg" class="graphs">
         <ul>
           <li> Is an even function (symmetrical) </li>
           <li> If a is positive, the function begins by going down. If a is negative, the function begins by going up </li>
@@ -311,7 +271,7 @@
         <div class = "makeItBouncy">
         <h4> Tan </h4>
         <!-- insert a graph -->
-        <img src = "../assets/trig/4.jpg">
+        <img src = "../assets/trig/4.jpg" class="graphs">
         <ul>
           <li> Is an odd function (non symmetrical) </li>
           <li> If b is negative, the negative can be taken outside of the function (odd function) </li>
@@ -324,7 +284,7 @@
         <div class = "makeItBouncy">
         <h4> Cot </h4>
         <!-- insert a graph -->
-        <img src = "../assets/trig/10.jpg">
+        <img src = "../assets/trig/10.jpg" class="graphs">
         <ul>
           <li> It is the same as a tan function, but the points are graphed oppositely </li>
           <li> It looks like tan was mirrored across the y axis </li>
@@ -343,26 +303,26 @@
         <div class = "makeItBouncy">
         <h3> Law of Sines </h3>
         <!-- Insert image of the formula -->
-        <img src = "../assets/trig/15.jpg">
+        <img src = "../assets/trig/11.jpg" class="biggerFormula">
         </div>
 
         <div class = "makeItBouncy">
         <h3> Law of cosines </h3>
         <!-- remember to put both of the formulas -->
-        <img src = "../assets/trig/12.jpg">
-        <img src = "../assets/trig/13.jpg">
+        <img src = "../assets/trig/12.jpg" class="biggerFormula">
+        <img src = "../assets/trig/13.jpg" class="biggerFormula">
         </div>
 
         <div class = "makeItBouncy">
         <h3> Area of an oblique traingle (not a right triangle) </h3>
         <!-- Insert the formula -->
-        <img src = "../assets/trig/14.jpg">
+        <img src = "../assets/trig/14.jpg" class="biggerFormula">
         </div>
 
         <div class = "makeItBouncy">
         <h3> Heron's Formula </h3>
         <!-- INsert heron's formula-->
-        <img src = "../assets/trig/5.jpg">
+        <img src = "../assets/trig/5.jpg" class="biggerFormula">
         <ul>
           <li> Used to find the area of a triangle </li>
           <li> S = semi-perimeter (half the perimeter of the triangle) </li>

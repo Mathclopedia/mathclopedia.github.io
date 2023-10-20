@@ -29,33 +29,42 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.bar {
+ #navBar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: pink;
-  position:fixed;
-  top:0;
+  background-color: rgb(255, 182, 194);
+  position: fixed;
+  top: 0;
   width: 100%;
-}
-
-.barStuff {
+  z-index: 100;
+ }
+ 
+ .bar {
   float: left;
-}
-
-.barStuff a {
+  font-size: 20px;
+ }
+ 
+ li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-}
-
-.barStuff a:hover {
-  background-color: #e5a8a8;
-}
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ li a:hover:not(.active) {
+  background-color: lightcoral;
+ }
+ 
+ 
+ .active {
+ background-color: lightcoral;
+ }
+ 
 
 /* decorations */
 
@@ -85,7 +94,7 @@ h5{
 }
 
 p {
-  margin-left: 25px;
+  margin-left: 20px;
   font-size: 20px;
 }
 
@@ -111,4 +120,8 @@ img {
 
 .biggerFormula {
   height: 200px;
+}
+
+.XXL{
+  height: 400px;
 }

@@ -13,62 +13,22 @@
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
 </head>
 
-<body>
-
-<style>
- body {margin:0;}
- 
- ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
- background-color: pink;
- position: fixed;
- top: 0;
- width: 100%;
- }
- 
- li {
- float: left;
- }
- 
- li a {
- display: block;
- color: white;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
- }
- 
- li a:hover:not(.active) {
- background-color: lightcoral;
- }
- 
- .active {
- background-color: lightcoral;
- }
- 
- 
- </style>
  <body>
  
- <ul>
- <li><a id = "alg1" href = "../alg1/index.html">Algebra 1</a></li>
- <li><a id = "geo" href = "../geo/index.html">Geometry</a></li>
- <li><a id = "alg2" href = "../alg2/index.html">Algebra 2</a></li>
- <li><a class="active" href = "../precalc/index.html">Precalculus</a></li>
- <li><a id = "calcAB" href = "../calcAB/index.html">Calculus AB</a></li>
- <li><a id = "calcBC" href = "../calcBC/index.html">Calculus BC</a></li>
- <li><a id = "stats" href = "../statistics/index.html">Statistics</a></li>
- <li><a id = "unitCircle" href = "../trig/index.html">Trigonometry</a></li>
- <li><a id = "unitConversion" href = "../unitConversion/index.html">Unit Conversion</a></li>
- <li><a id = "aboutUs" href = "../aboutUs/index.html">About Us!</a></li>
- </ul>
+   <ul id = "navBar">
+   <li class = "bar"><a id = "alg1" href = "../alg1/index.html">Algebra 1</a></li>
+   <li class = "bar"><a id = "geo" href = "../geo/index.html">Geometry</a></li>
+   <li class = "bar"><a id = "alg2" href = "../alg2/index.html">Algebra 2</a></li>
+   <li class = "bar"><a class="active" href = "../precalc/index.html">Precalculus</a></li>
+   <li class = "bar"><a id = "calcAB" href = "../calcAB/index.html">Calculus AB</a></li>
+   <li class = "bar"><a id = "calcBC" href = "../calcBC/index.html">Calculus BC</a></li>
+   <li class = "bar"><a id = "stats" href = "../statistics/index.html">Statistics</a></li>
+   <li class = "bar"><a id = "unitCircle" href = "../trig/index.html">Trigonometry</a></li>
+   <li class = "bar"><a id = "unitConversion" href = "../unitConversion/index.html">Unit Conversion</a></li>
+   <li class = "bar"><a id = "aboutUs" href = "../aboutUs/index.html">About Us!</a></li>
+   </ul>
 
-      <div style="padding:20px;margin-top:30px;height:1500px;">
-         <div class = "makeItBouncy">
+   <div class = "makeItBouncy">
       <!-- Precalc is so cool! -->
       <h1> Precalculus! </h1>
       <p> Precalculus is not as scary as it may seem. Do not worry. We got you :D</p>
@@ -510,8 +470,9 @@
 
    <div class = "makeItBouncy">
        <h5> Magnitude </h5>
+       <p>Click here for the <a href = "#distance" id = "link"> distance formula </a></p>
        <ul>
-          <li> The same formula as the <a href = "#distance">Distance Formula</a></li>
+          <li> The same formula as the Distance Formula </li>
           <li> The length/distance between the initial point and terminal point</li>
           <li> ||v||</li>
        </ul>
@@ -877,7 +838,7 @@
        <div class = "makeItBouncy">
        <h3> Conic Sections </h3>
        <h4> Parabolas </h4>
-       <img src = "../assets/Precalc/parabola.jpg" class = "graphs">
+       <img src = "../assets/Precalc/parabola.jpg" class = "XXL">
        <ul>
           <li> p = distance between the vertex and focus point </li>
           <li> h = changes the x position of the vertex </li>
@@ -887,11 +848,11 @@
        </ul>
        </div>
 
-       <h3> A circle is also a conic section. Click <a href = "#circle"> here </a> for reference</h3>
+       <h3> A circle is also a conic section. Click <a href = "#circle"> here</a> for reference</h3>
 
        <div class = "makeItBouncy">
        <h4> Ellipses </h4>
-       <img src = "../assets/Precalc/ellipse.jpg" class = "graphs">
+       <img src = "../assets/Precalc/ellipse.jpg" class = "XXL">
        <ul>
           <li> h = changes the x position of the center </li>
           <li> k = changes the y position of the center </li>
@@ -903,7 +864,7 @@
 
        <div class = "makeItBouncy">
        <h4> Hyperbolas </h4>
-       <img src = "../assets/Precalc/hyperbola.jpg" class = "graphs">
+       <img src = "../assets/Precalc/hyperbola.jpg" class = "XXL">
        <ul>
         <li> h = changes the x position of the center </li>
         <li> k = changes the y position of the center </li>
@@ -916,7 +877,7 @@
 
        <div class = "makeItBouncy">
        <h4> Parametrics </h4>
-       <img src = "../assets/Precalc/parametrics.jpg" class = "graphs">
+       <img src = "../assets/Precalc/parametrics.jpg" class = "XXL">
        <ul>
           <li> Represent the direction an object travels </li>
           <li> The direction of a parametric always goes in the direction of where t increases</li>
