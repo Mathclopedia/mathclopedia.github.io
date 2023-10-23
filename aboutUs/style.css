@@ -125,3 +125,13 @@ li {
   margin-left: 0px;
   border-color: rgb(255, 156, 156);
 }
+
+#avanti {
+  border-radius: 3px;
+  transform: rotate(90deg);
+  border-style: solid;
+  border-width: 14px;
+  height: 290px;
+  margin-left: 0px;
+  border-color: rgb(255, 156, 156);
+}
