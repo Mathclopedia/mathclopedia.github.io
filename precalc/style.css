@@ -102,12 +102,12 @@ p {
 }
 
 /** division to help sort **/
-#paragraph-center {
+.paragraph-center {
   text-align: center;
 }
 
 /* bullet in the middle */
-#container {
+.container {
   text-align: center;
   margin-top: 0px;
 }
@@ -162,4 +162,17 @@ img {
   padding: 10px;
   padding-bottom: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* the stuff affected by flex*/
+.small-margin {
+  margin-top: 100px;
+}
+
+.medium-margin {
+  margin-top: 200px;
+}
+
+.large-margin {
+  margin-top: 300px;
 }
