@@ -225,10 +225,12 @@
         </div>
       </div>
 
-      <div class = "makeItBouncy">
+      <div class = "makeItBouncy" id = "common-triangle">
         <h1> Unit Circle!!! </h1>
-        <div id = "unitCircle">
-          <img src="../assets/unitcircle.png" class="graphs" id = "unitcircle">
+
+        <div class = "image-center">
+          <img src="../assets/unitcircle.png" id = "unitcircle">
+        </div>
 
             <h3>Here are some tips + tricks to tackle the unit circle </h3>
 
@@ -255,125 +257,176 @@
             </ol>
 
             <h3> Why the angles 0, π/2, π, and 3π/2 are Different From the Right Triangle Values </h3>
-            <p> For the x and y axis angles, think conceptually about the values </p>
-            <p> Keep in mind that the radius of the circle is 1 </p>
-            <ol>
-              <li> When the angle is 0, the values is (1, 0) because it's the distance from the midpoint to the corners of the circle at 0°</li>
-              <li> This principle is the same for the rest of the angles: When the angle is π/2 (90°), the value is (0,1) (cos π/2 = 0, sin π/2 = 1) </li>
-              <li> When the angle is π (180°), the value is (-1,0) (cos π = 1, sin π = 0)</li>
-              <li> When the angle is 3π/2 (270°), the value is (0,-1) (cos 3π/2 = 0, sin 3π/2 = -1)</li>
-            </ol>
+            <p id = "not-scary"> For the x and y axis angles, think conceptually about the values </p>
+            <p id = "not-scary"> Keep in mind that the radius of the circle is 1 </p>
+
+            <div id = "container">
+              <ol class = "myUL">
+                <li> When the angle is 0, the values is (1, 0) because it's the distance from the midpoint to the corners of the circle at 0°</li>
+                <li> This principle is the same for the rest of the angles: When the angle is π/2 (90°), the value is (0,1) (cos π/2 = 0, sin π/2 = 1) </li>
+                <li> When the angle is π (180°), the value is (-1,0) (cos π = 1, sin π = 0)</li>
+                <li> When the angle is 3π/2 (270°), the value is (0,-1) (cos 3π/2 = 0, sin 3π/2 = -1)</li>
+              </ol>
+            </div>
         </div>
       </div>
 
         <div class = "makeItBouncy">
-        <h3> csc, sec, cot </h3>
-        <ul>
-          <li> These are just 1/sin, 1/cos, and 1/tan respectively </li>
-        </ul>
+          <div id = "container">
+          <h3> csc, sec, cot </h3>
+            <ul class = "myUL">
+              <li> These are just 1/sin, 1/cos, and 1/tan respectively </li>
+            </ul>
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h3> Trig Identities </h3>
         <!-- Insert pdf of trig identities -->
-        <img src = "../assets/trig/trigidentities.JPG" id = "unitcircle">
-        <ul>
-          <li> Used when simplifying big trigonometric equations </li>
-        </ul>
+        <div class = "image-center">
+          <img src = "../assets/trig/trigidentities.JPG" id = "unitcircle">
+        </div>
+
+          <div id = "container">
+            <ul class = "myUL">
+              <li> Used when simplifying big trigonometric equations </li>
+            </ul>
+        </div>
         </div>
         
         <div class = "makeItBouncy">
-        <h3> Inverse Trig Functions </h3>
-        <!-- insert picture; include arc tan -->
-        <img src = "../assets/trig/7.jpg">
-        <ul>
-          <li> IS NOT 1/trig function!! It is sometimes written as arcsin, arccos, arctan</li>
-          <li> It is used to find the angle of a trig function using its value on a unit circle </li>
-          <li> A calculator only computes quadrant 1 and 4 for inverse sin and tan functions. For cos, it computes only quadrant 1 and 2. </li>
-          <li> If you are asked to find the inverse trig function in a quadrant out of the calculator's range, pretend the computed angle is a reference angle </li>
-          <li> Then, add the angle plus/minus the x axis pertaining to the reference angle </li>
-          <!-- add example cuz its confusing af -->
-          <img src = "../assets/trig/8.jpg" class="graphs">
-          <p> What the calculator can compute </p>
-          <img src = "../assets/trig/3.jpg" class="graphs">
-        </ul>
+          <h3> Inverse Trig Functions </h3>
+          <!-- insert picture; include arc tan -->
+          <div class = "row">
+            <div class = "column">
+              <img src = "../assets/trig/7.jpg" class = "graphs">
+            </div>
+
+            <div class = "column">
+              <ul>
+                <li> IS NOT 1/trig function!! It is sometimes written as arcsin, arccos, arctan</li>
+                <li> It is used to find the angle of a trig function using its value on a unit circle </li>
+                <li> A calculator only computes quadrant 1 and 4 for inverse sin and tan functions. For cos, it computes only quadrant 1 and 2. </li>
+                <li> If you are asked to find the inverse trig function in a quadrant out of the calculator's range, pretend the computed angle is a reference angle </li>
+                <li> Then, add the angle plus/minus the x axis pertaining to the reference angle </li>
+                <!-- add example cuz its confusing af -->
+              </ul>
+            </div>
+
+          </div>
         </div>
 
-        <div class = "makeItBouncy">
+        <br>
+   
+        <div class = "makeItBouncy" id = "common-triangle">
+          <h3> We know it sounds confusing, so here is a step by step process! </h3>
+          <div class = "row">
+
+            <div class = "column">
+              <img src = "../assets/trig/8.jpg" class="graphs">
+              <p> What the calculator can compute </p>
+            </div>
+            
+            <div class = "column">
+              <img src = "../assets/trig/2.jpg" class="graphs">
+            </div>
+          </div>
+        </div>
+
+        <div class = "makeItBouncy" id = "convert">
         <h3> Graphing sin, cos </h3>
         <!-- Put the formula -->
         <h4> A few notes: </h4>
-        <ul>
-          <li> y = k: midline </li>
-          <li> |a| = amplitude </li>
-          <li> 2π/b = period </li>
-          <li> Midline: the middle horizontal line of a sin/cos function </li>
-          <li> Amplitude: the range a point on a function goes up and down from the midline </li>
-          <li> Period: a sector of a trig function, usually about 5 points </li>
-          <li> To find the range of values of a period, add the period + h </li>
-          <li> Make sure that x has no coefficient. If it does, distribute the coefficient out. The coefficient becomes b </li>
-        </ul>
+
+          <div id = "container">
+            <ul class = "myUL">
+              <li> y = k: midline </li>
+              <li> |a| = amplitude </li>
+              <li> 2π/b = period </li>
+              <li> Midline: the middle horizontal line of a sin/cos function </li>
+              <li> Amplitude: the range a point on a function goes up and down from the midline </li>
+              <li> Period: a sector of a trig function, usually about 5 points </li>
+              <li> To find the range of values of a period, add the period + h </li>
+              <li> Make sure that x has no coefficient. If it does, distribute the coefficient out. The coefficient becomes b </li>
+            </ul>
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h4> Sin </h4>
-        <img src = "../assets/trig/3.jpg" class="graphs">
-        <!-- Insert graph of sin x -->
-        <ul>
-          <li> Is an odd function (not symmetrical) </li>
-          <li> If a is positive, the function begins by going up. If a is negative, the function begins by going down</li>
-          <li> The first point is on the midline, second point is |a| +/- k (depending on the value of a), third is on the midline, fourth point is |a| +/- k (depending on the value of a), last point is on the midline </li>
-          <li> If b is negative, the negative can be taken outside of the function (odd function) </li>
-        </ul>
+
+          <div class = "row">
+            <div class = "column">
+              <img src = "../assets/trig/3.jpg" id="unitcircle">
+            </div>
+
+            <div class = "column">
+              <ul>
+                <li> Is an odd function (not symmetrical) </li>
+                <li> If a is positive, the function begins by going up. If a is negative, the function begins by going down</li>
+                <li> The first point is on the midline, second point is |a| +/- k (depending on the value of a), third is on the midline, fourth point is |a| +/- k (depending on the value of a), last point is on the midline </li>
+                <li> If b is negative, the negative can be taken outside of the function (odd function) </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <div class = "makeItBouncy">
+        <div class = "makeItBouncy" id = "common-triangle">
         <h4> Cos </h4>
-        <!-- Insert graph of cos x-->
-        <img src = "../assets/trig/9.jpg" class="graphs">
-        <ul>
-          <li> Is an even function (symmetrical) </li>
-          <li> If a is positive, the function begins by going down. If a is negative, the function begins by going up </li>
-          <li> the first point is |a| +/- k (depending on the value of a), second point is on the midline, third point is |a| +/- k (depending on the value of a), fourth point is on the midline, fifth point is |a| +/- k (depending on the value of a)</li>
-          <li> If b is negative, the negative can be dropped out completely (even function)</li>
-        </ul>
+
+          <div class = "row">
+            <img src = "../assets/trig/9.jpg" id="unitcircle">
+            <ul>
+              <li> Is an even function (symmetrical) </li>
+              <li> If a is positive, the function begins by going down. If a is negative, the function begins by going up </li>
+              <li> the first point is |a| +/- k (depending on the value of a), second point is on the midline, third point is |a| +/- k (depending on the value of a), fourth point is on the midline, fifth point is |a| +/- k (depending on the value of a)</li>
+              <li> If b is negative, the negative can be dropped out completely (even function)</li>
+            </ul>
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h3> Graphing tan and cot </h3>
 
         <h4> A few notes </h4>
-        <ul>
-          <li> Graphing tan is a bit different from sin and cos. It also looks completely different</li>
-          <li> Period: π/b</li>
-          <li> point of influction: (h,k) </li>
-          <li> |a| = amplitude </li>
-          <li> Point of influction (p.o.i): the mipoint of a tan function </li>
-          <li> h is NOT the first point on a tan function like sin and cos. It is the middle point </li>
-        </ul>
+
+          <div id = "container">
+            <ul class = "myUL">
+              <li> Graphing tan is a bit different from sin and cos. It also looks completely different</li>
+              <li> Period: π/b</li>
+              <li> point of influction: (h,k) </li>
+              <li> |a| = amplitude </li>
+              <li> Point of influction (p.o.i): the mipoint of a tan function </li>
+              <li> h is NOT the first point on a tan function like sin and cos. It is the middle point </li>
+            </ul>
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h4> Tan </h4>
         <!-- insert a graph -->
-        <img src = "../assets/trig/4.jpg" class="graphs">
-        <ul>
-          <li> Is an odd function (non symmetrical) </li>
-          <li> If b is negative, the negative can be taken outside of the function (odd function) </li>
-          <li> The first and last points are asymptotes </li>
-          <li> The 2nd and 4th point are determined by the amplitude and if the equation is negative or positive </li>
-          <li> If a is negative, the 2nd point is higher and 4th point is lower. If a is positive, the 2nd point is lower and the 4th point is higher </li>
-        </ul>
+          <div class = "row">
+            <img src = "../assets/trig/4.jpg" id="unitcircle">
+            <ul>
+              <li> Is an odd function (non symmetrical) </li>
+              <li> If b is negative, the negative can be taken outside of the function (odd function) </li>
+              <li> The first and last points are asymptotes </li>
+              <li> The 2nd and 4th point are determined by the amplitude and if the equation is negative or positive </li>
+              <li> If a is negative, the 2nd point is higher and 4th point is lower. If a is positive, the 2nd point is lower and the 4th point is higher </li>
+            </ul>
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h4> Cot </h4>
         <!-- insert a graph -->
-        <img src = "../assets/trig/10.jpg" class="graphs">
-        <ul>
-          <li> It is the same as a tan function, but the points are graphed oppositely </li>
-          <li> It looks like tan was mirrored across the y axis </li>
-        </ul>
+          <div class = "row">
+            <img src = "../assets/trig/10.jpg" id="unitcircle">
+            <ul>
+              <li> It is the same as a tan function, but the points are graphed oppositely </li>
+              <li> It looks like tan was mirrored across the y axis </li>
+            </ul>
+          </div>
         </div>
 
         <div class = "makeItBouncy">
@@ -388,30 +441,41 @@
         <div class = "makeItBouncy">
         <h3> Law of Sines </h3>
         <!-- Insert image of the formula -->
-        <img src = "../assets/trig/11.jpg" class="biggerFormula">
+          <div class = "image-center">
+            <img src = "../assets/trig/11.jpg" class="biggerFormula">
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h3> Law of cosines </h3>
         <!-- remember to put both of the formulas -->
-        <img src = "../assets/trig/12.jpg" class="biggerFormula">
-        <img src = "../assets/trig/13.jpg" class="biggerFormula">
+          <div class = "image-center">
+            <img src = "../assets/trig/12.jpg" class="biggerFormula">
+            <img src = "../assets/trig/13.jpg" class="biggerFormula">
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h3> Area of an oblique traingle (not a right triangle) </h3>
         <!-- Insert the formula -->
-        <img src = "../assets/trig/14.jpg" class="biggerFormula">
+          <div class = "image-center">
+            <img src = "../assets/trig/14.jpg" class="biggerFormula">
+          </div>
         </div>
 
         <div class = "makeItBouncy">
         <h3> Heron's Formula </h3>
         <!-- INsert heron's formula-->
-        <img src = "../assets/trig/5.jpg" class="biggerFormula">
-        <ul>
-          <li> Used to find the area of a triangle </li>
-          <li> S = semi-perimeter (half the perimeter of the triangle) </li>
-        </ul>
+          <div class = "image-center">
+            <img src = "../assets/trig/5.jpg" class="biggerFormula">
+          </div>
+
+          <div id = "container">
+            <ul class = "myUL">
+              <li> Used to find the area of a triangle </li>
+              <li> S = semi-perimeter (half the perimeter of the triangle) </li>
+            </ul>
+          </div>
         </div>
 
         

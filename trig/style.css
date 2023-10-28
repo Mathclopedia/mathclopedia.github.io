@@ -112,7 +112,7 @@ p {
   margin-top: 0px;
 }
 
-ul.myUL {
+.myUL {
   display: inline-block;
   text-align: left;
 }
@@ -129,6 +129,10 @@ img {
   border-style: solid;
   border-width: 7px;
   border-color: rgb(255, 156, 156);
+}
+
+.image-center {
+  text-align: center;
 }
 
 .graphs {
@@ -172,12 +176,12 @@ img {
 }
 
 /* the stuff affected by flex*/
-#common-triangle {
-  margin-top: 200px;
-}
-
 #convert {
   margin-top: 100px;
+}
+
+#common-triangle {
+  margin-top: 200px;
 }
 
 #large-margin {
