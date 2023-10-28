@@ -5,6 +5,8 @@
   transform: translateY(-30px) scale(0.9);
   transition: all 1s;
   animation-iteration-count: 1;
+
+  /*positioning*/
 }
 
 .show {
@@ -71,30 +73,51 @@ body {
 h1 {
   margin-left: 15px;
   font-size: 50px;
+  text-align: center;
 }
 
 h3 {
   font-size: 40px;
   margin-left: 15px;
   color: #83BCFF;
+  text-align: center;
 }
 
 h4 {
   font-size: 35px;
   margin-left: 15px;
   color: #8547d1da;
+  text-align: center;
 }
 
 h5{
   font-size: 25px;
   margin-left: 15px;
   color: rgb(235, 116, 199);
+  text-align: center;
 }
 
 p {
   margin-left: 20px;
   font-size: 20px;
 }
+
+#not-scary {
+  text-align: center;
+}
+
+/* bullet in the middle */
+#container {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+/*********/
 
 li {
   font-size: 25px;
@@ -108,6 +131,10 @@ img {
   border-color: rgb(255, 156, 156);
 }
 
+.image-center {
+  text-align: center;
+}
+
 .graphs {
   height: 300px;
 }
@@ -118,4 +145,54 @@ img {
 
 .biggerFormula {
   height: 200px;
+}
+
+#unitcircle {
+  height: 400px;
+}
+
+#unitcircle2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*flex*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+  padding-bottom: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* the stuff affected by flex*/
+#convert {
+  margin-top: 100px;
+}
+
+#common-triangle {
+  margin-top: 200px;
+}
+
+#large-margin {
+  margin-top: 300px;
+}
+
+#notes {
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+#list {
+  margin-left: 20px;
 }
