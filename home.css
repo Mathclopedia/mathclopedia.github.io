@@ -44,10 +44,6 @@ button {
   }
 
 /* STYLE IMAGES */
-img {
-    height: 7em;
-    /*border: 8px solid rgb(195, 75, 95)*/
-  }
 
 /* dropdown menu*/
 #math {
@@ -93,7 +89,7 @@ img {
 img {
     border-style: solid;
     border-radius: 2%;
-    height: 200px;
+    height: 250px;
     border-color: pink;
     border-width: 7px;
 }
