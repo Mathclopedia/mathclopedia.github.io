@@ -101,16 +101,16 @@
 <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     
   <div class = "makeItBouncy">
-    <h3> Intro to Limits + Evaluating </h3>
+    <h3> Intro to Limits </h3>
       <div class="row">
         <div class="column">
           <img src = "../assets/calcAB/limits1.png" class = "graphs">
         </div>
         <div class="column">
-          <p> as x gets closer to 2   x --> 2 </p>
-          <p> f(x) gets closer to 3  f(x) --> 3 </p>
+          <p> as x gets closer to 2   x → 2 </p>
+          <p> f(x) gets closer to 3  f(x) → 3 </p>
           <p> ∴ lim f(x) = 3 </p>
-          <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x --> 2 </p1>
+          <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x → 2 </p1>
           <p> say: limit as x approaches 2 of f(x) is 3 </p>
         </div>
       </div>
@@ -121,13 +121,42 @@
   <div class = "makeItBouncy">
       <div class="row">
         <div class="column">
-          <img src = "../assets/calcAB/limits2.png" class = "graphs">
+          <img src = "../assets/calcAB/limits5.PNG" class = "graphs">
         </div>
         <div class="column">
           <p> h(2) = does not exist </p>
           <p> ∴ lim h(x) = 3 </p>
-          <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x --> 2 </p1>
+          <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x → 2 </p1>
           <p> limit exists at holes </p>
+          <p1> *limits DON'T exist at breaks/jumps & at vertical asymptotes* </p1>
+        </div>
+      </div>
+  </div>
+
+  <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+  <div class = "makeItBouncy">
+      <div class="row">
+        <div class="column">
+          <img src = "../assets/calcAB/limits7.PNG" class = "graphs">
+        </div>
+        <div class="column">
+          <p> ∴ lim g(x) = -2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ∴ lim g(x) = 1 </p>
+          <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x → -2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp; x → -1 <sup>+</sup> *this means it's from the right*</p1>
+            <br>
+            <p> ∴ lim g(x) = DNE &nbsp;&nbsp;&nbsp; ∴ lim g(x) = -1 </p>
+            <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x → -1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp; x → -1 <sup>-</sup> *this means it's from the left*</p1>
+              <br>
+              <br>
+              <p1> *DNE: if the values of lim f(x) are not the same when you approach from the left & right* </p1>
+              <p> ∴ lim g(x) = +∞ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ∴ lim g(x) = -∞ </p>
+              <p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x → 3 <sup>+</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp; x → 3 <sup>-</sup> *this means it's from the right*</p1>
         </div>
       </div>
   </div>
@@ -135,144 +164,304 @@
   <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
   <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
 
-    <h3> Rational Functions </h3>
+    <div class = "makeItBouncy">
+    <h3> Evaluating limits </h3>
+      <div class="row">
+        <div class="column">
+          <img src = "../assets/calcAB/limits6.png" class = "bigGraphs">
+        </div>
+      </div>
+  </div>
+
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+    <div class = "makeItBouncy">
+      <h3> Rational Functions </h3>
+          <p> def: a rational function is a function of the form r(x) = p(x)/q(x) </p>
+          <p> where p(x) & q(x) are polynomial functions & q(x) ≠ 0 </p>
+          <p> to graph: </p>
+          <p> - find holes first, factor, & cancel</p>
+          <p> - zeros: let numerator = 0 solve for x </p>
+          <p> - y intercepts: let x = 0 solve for y </p>
+          <p> - vertical asymptotes: let denom = 0</p>
+          <p> - horizontal asymptotes: deg. num ≤ deg. of denom </p>
+          <p> - slant asymptote: deg num = 1 + deg. denom </p>
+          <p> - if deg. num > 1 + deg. denom there is no asymptote </p>
+          <p> - make sure to find holes before vertical asymptotes </p>
+          <p> - check for symmetry & then GRAPH! keep practicing how to graph... </p>
+    </div>
+
+    <div class = "makeItBouncy">
+      <div class="row">
+        <div class="column">
+          <h3> Infinite Limits </h3>
+          <p> to find infinte limits w/o graphing: lim when x → a <sup>±</sup> p(x)/q(x) = ±∞ if & only if </p>
+          <p> lim when x → a <sup>±</sup> p(x) = non-zero constant & lim when x → a <sup>±</sup> q(x) = 0 </p>
+        </div>
+        <div class="column">
+          <h3> Limits at Infinity </h3>
+          <p> to find infinte limits w/o graphing: lim when x → ±∞ C/x<sup>n</sup> = 0 </p>
+          <p> goal is to rewrite the function to produce expressions C/x<sup>n</sup> </p>
+          <p> multiply numerator & denominator by 1/x<sup>highest</sup> power of denom. </p>
+        </div>
+      </div>
+  </div>
+
+    <div class = "makeItBouncy">
+      <h3> The Intermediate Value Theorem (IVT) </h3>
+      <div class="row">
+        <div class="column">
+          <p> if f is contonuous on [a, b] and if f(a) ≠ f(b), then for any # k between f(a) & f(b) there exists 
+            at least one # c between a and b such that f(c) = k </p>
+          <p> ex. f(x) = x<sup>3</sup> - x<sup>2</sup> + x -2 &nbsp;&nbsp;&nbsp;&nbsp; [0,3] f(x) = 4 </p>
+        </div>
+        <div class="column">
+          <p> ✓ f is continuous on [0,3] </p>
+          <p> ✓ f(0) ≠ f(3) </p>
+          <p> ✓ f(0) < 4 < f(3) </p>
+          <p> c<sup>3</sup> - c<sup>2</sup> + c - 2 = 4 </p>
+          <p> c<sup>3</sup> - c<sup>2</sup> + c - 6 = 0 </p>
+          <p> (c-2)(c<sup>2</sup> + c<sup>2</sup> + 3) = 0 </p>
+          <p> a = 0 < c = 2 < b = 3 </p>
+          <p> ∴ intermediate value thm applies </p>
+        </div>
+      </div>
+    </div>
 
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     
-    <h3> Infinite Limits </h3>
+    <div class = "makeItBouncy">
+      <h3> Derivatives & Tangent Lines </h3>
+      <div class="row">
+        <div class="column">
+          <p> def: the derivative of f(x) at only pt x is </p>
+          <p> f'(x) = lim &nbsp; f(x + ∆x) - f(x) / ∆x </p>
+          <p1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ∆x → 0 </p1>
+        </div>
+        <div class="column">
+          <p> alternate def: derative of f(x) at x = c </p>
+          <p> f'(x) = lim &nbsp; f(x) - f(c) / x - c </p>
+          <p1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x → c </p1>
+        </div>
+      </div>
+      <p> derative = slope of a tangent line = instantaneous rate of change </p>
+      <p> f'(x) *say f prime of x* </p>
+      <p> y' *say y prime* </p>
+      <p> dy/dx *say dee y dee x* </p>
+    </div>
+    
+    <div class = "makeItBouncy">    
+      <div class="row">
+        <div class="column">
+          <h3> Differentiation Rules </h3>
+          <p> constant rule: d/dex [c] = 0 </p>
+          <p> power rule: d/dx [x<sup>n</sup>] = nx<sup>n-1</sup> </p>
+          <p> constant multiple rule: d/dx[cf(x)] = c ⋅ f'(x) </p>
+          <p> sum & difference rule: d/dx [f(x) ± g(x)] = f'(x) ± g'(x) </p>
+          <p> <a href= https://drive.google.com/file/d/1CinT57omBpZX_TQGHvt8-cEKfW_kHtV1/view>Derivatives and Integrals</a> </p>
+        </div>
+        <div class="column">
+          <h3> Product & Quotient Rules </h3>
+          <p> product rule </p>
+          <p> if h(x) = f(x) ⋅ g(x) </p>
+          <p> then h'(x) = f'(x)g(x) + g'(x)f(x) </p>
+          <p> think it this way: deriv of 1st times 2nd plus deriv of 2nd times 1st </p>
+          <p> quotient rule </p>
+          <p> if h(x) = f(x) / g(x) </p>
+          <p> then h'(x) = f'(x)g(x) - g'(x)f(x) / [g(x)]<sup>2</sup> </p>
+          <p> think it this way: deriv of the top times the bottom minus deriv of bottom times the top all over the bottom 
+            squared </p>
+        </div>
+      </div>
+    </div>
 
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p> 
-    
-    <h3> Limits at Infinity </h3>
-
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> Special Trig Limits </h3>
-    
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
 
-    <h3> Continuity & One-Sided Limits </h3>
+    <div class = "makeItBouncy">    
+      <div class="row">
+        <div class="column">
+          <h3> Higher Order Derivatives </h3>
+          <p> original: f(x) 1st deriv: f'(x) 2nd deriv: f''(x) </p>
+        </div>
+        <div class="column">
+          <h3> Chain Rule </h3>
+          <p> product rule </p>
+          <p> if h(x) = f(x) ⋅ g(x) </p>
+          <p> then h'(x) = f'(x)g(x) + g'(x)f(x) </p>
+          <p> think it this way: deriv of 1st times 2nd plus deriv of 2nd times 1st </p>
+          <p> quotient rule </p>
+          <p> if h(x) = f(x) / g(x) </p>
+          <p> then h'(x) = f'(x)g(x) - g'(x)f(x) / [g(x)]<sup>2</sup> </p>
+          <p> think it this way: deriv of the top times the bottom minus deriv of bottom times the top all over the bottom 
+            squared </p>
+        </div>
+      </div>
+    </div>
 
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> The Intermediate Value Theorem (IVT) </h3>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
 
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> Derivatives & Tangent Lines </h3>
-
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> Differentiation Rules </h3>
-
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> Product & Quotient Rules </h3>
-
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> Chain Rule </h3>
-
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
+    <div class = "makeItBouncy"> 
     <h3> PVA (Position - Velocity - Acceleration) </h3>
-
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> particle moving horizontally or vertically </p>
+    <p> position function: s(t) or x(t) or y(t) </p>
+    <p> velocity: v(t) = s'(t) </p>
+    <p> accerlation: a(t) = v'(t) = s'(t) </p>
+    <p> average velocity Δs/Δt = change in position/change in time </p>
+    <p> particle changes direction v(t) changes sign </p>
+    <p> total distance traveled from t = t<sub>1</sub> to t = t<sub>2</sub> </p>
+    <p> D<sub>T</sub> |s(t<sub>1</sub>) - s(t<sub>c</sub>)| + |s(t<sub>c</sub>) - s(t<sub>2</sub>)| </p>
+    <p> t<sub>c</sub> = time particle changes direction </p>
+    </div>
     
+    <div class = "makeItBouncy">     
     <h3> Implicit Differentiation </h3>
-
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> basically you solve for dy/dx </p>
+    <p> ex. derative of y<sup>2</sup> is 2y ⋅ dy/dx </p>
+    </div>
     
+    <div class = "makeItBouncy"> 
     <h3> Related Rates </h3>
+    <p> related rates is to find the rates of chnage of 2 or more related variables that are changing with the respect to time </p>
+    <p> ex. when water drains out of a conical tank the volume V, the radius r, and the height of the water h are all functions of time </p>
+    <p> V = 1/3 ⋅ πr<sup>2</sup>h </p>
+    <p> dv/dt = 1/3 ⋅ π[2r ⋅ dr/dt ⋅ h + dh/dt ⋅ r<sup>2</sup>] </p>
+    <p> bsically determind what you are looking for, when this is occuring, and what you are given </p>
+    <p> then make a sketch, label variables, write an eq relating to them, differentiate implicty with respect to time </p>
+    <p> finally substitute known values! </p>
+    </div>
 
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
+    <div class = "makeItBouncy"> 
     <h3> Rolle's Theorem / Mean Value Theorem </h3>
+    <p> Just check out the <a href= https://drive.google.com/file/d/0B4zoEKgZ29HTT2c5a1BvLUozclk/view?resourcekey=0-fTa-LXN1aYyo0XXL5z1zAQ>Theorems</a> </p>
+    </div>
+
+    <div class = "makeItBouncy"> 
+    <h3> Extrema (find the minimum and maximum), The First Derivative Test (for relative extrema), Concavity & Points of Inflection (POI), 
+       & Concavity & 2nd Derivative Test </h3>
+    <p> Okay so honestly, if you take a look at the Needs Statements page, you will be able to solve each one of these problems </p>
+    </div>
+
+    <div class = "makeItBouncy">    
+      <div class="row">
+        <div class="column">
+          <h3> Logs & Exponentials </h3>
+          <p> y = log<sub>b</sub>x, b > 0 ⇔ x = b<sup>y</sup> </p>
+          <p> y = log<sub>b</sub>(xy) = log<sub>b</sub>(x) + log<sub>b</sub>(y) </p>
+          <p> y = log<sub>b</sub>(x/y) = log<sub>b</sub>(x) - log<sub>b</sub>(y) </p>
+          <p> y = log<sub>b</sub>(x<sup>y</sup>) = ylog<sub>b</sub>(x) </p>
+          <p> y = log<sub>b</sub>(<sup>y</sup>sqrt(x)) = 1/y ⋅ log<sub>b</sub>(x) </p>
+        </div>
+        <div class="column">
+          <p> ALSO: </p>
+          <p> e<sub>lnx</sub> = x </p>
+          <p> ln(e<sub>x</sub>) = x </p>
+        </div>
+      </div>
+    </div>
 
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> Extrema (find the minimum and maximum) </h3>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+    <div class = "makeItBouncy">    
+      <div class="row">
+        <div class="column">
+          <h3> Logarithmic Differentiation </h3>
+          <p> use ln as an aid in differentation in non-ln properties </p>
+          <p> take ln of both sides </p>
+        </div>
+        <div class="column">
+          <h3> Inverse Function </h3>
+          <p> the inverse function is denoted as f<sup>-1</sup> (f inverse) </P>
+            <p> ex. y = sqrt(2 - 3x) </p>
+            <p> x = sqrt(2 - 3y) </p>
+            <p> x<sup>2</sup> = 2 - 3y </p>
+            <p> 3y = 2 - x<sup>2</sup> </p>
+            <p> y = 2 - x<sup>2</sup> / 3 </p>
+            <p> f<sup>-1</sup>(x) = 2 - x<sup>2</sup> / 3 </p>
+        </div>
+      </div>
+    </div>
 
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
-    
-    <h3> The First Derivative Test (for relative extrema) </h3>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+    <div class = "makeItBouncy">    
+      <div class="row">
+        <div class="column">
+          <h3> L'Hopital's Rule </h3>
+          <p> basic rule for this rule is it's done to solve indeterminate form of 0/0 or ∞/∞ </p>
+          <p> basic rule is you take the derivative of the top and bottom to solve! </p>
+        </div>
+        <div class="column">
+          <h3> Integration </h3>
+          <p> ex. y = sin(3x) </p>
+          <p> dy/dx = cos(3x) ⋅ 3 </p>
+          <p> ∫dy = ∫cos(3x)3dx </p>
+          <p> y = 1/3 ⋅ 3sin(3x) + C </p>
+      </div>
+    </div>
 
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+
+    <div class = "makeItBouncy">    
+      <div class="row">
+        <div class="column">
+          <h3> Formal U-substitution </h3>
+          <p> ∫xsqrt(2x-1)dx</p>
+          <p> = ∫(u+1)/2 ⋅ u<sub>1/2</sub> du/2 </p>
+          <p> = 1/4∫u<sub>3/2</sub> + u<sub>1/2</sub> du </p>
+          <p> = 1/4[2/3 ⋅ u<sub>5/2</sub> + 2/3 ⋅ u<sub>3/2</sub>] </p>
+          <p> = 1/4[2/15 ⋅ u<sub>3/2</sub> (3u + 5) </p>
+          <p> = 1/30 ⋅ (2x-1)<sub>3/2</sub> (3(2x-1) + 5) </p>
+          <p> = 1/30 ⋅ (2x-1)<sub>3/2</sub> (6x-3) + 5) </p>
+        </div>
+        <div class="column">
+          <p> u = 2x - 1 </p>
+          <p> x = (u + 1) / 2 </p>
+          <p> dx = 1/2 ⋅ du </p>
+        </div>
+      </div>
+    </div>
+
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
     
-    <h3> Concavity & Points of Inflection (POI) </h3>
-    
-    <h3> Concavity & 2nd Derivative Test </h3>
-    
-    <h3> Optimization </h3>
-    
-    <h3> Logs & Exponentials </h3>
-    
-    <h3> Derivative of ln(u) </h3>
-    
-    <h3> Logarithmic Differentiation </h3>
-    
-    <h3> Inverse Function </h3>
-    
-    <h3> Derivatives of e<sup>x</sup> </h3>
-    
-    <h3> Derivatives with a constant or variable power </h3>
-    
-    <h3> Inverse Trig Functions </h3>
-    
-    <h3> L'Hopital's Rule </h3>
-    
-    <h3> Sigma Notation, Σ, & limit of sequence </h3>
-    
-    <h3> Area of a Plane Region </h3>
-    
-    <h3> Integration with Substitution </h3>
-    
-    <h3> Formal U-substitution </h3>
-    
-    <h3> Rieman Sum </h3>
-    
-    <h3> The Fundemental Theorem of Calculus </h3>
-    
-    <h3> MVT continued </h3>
-    
-    <h3> Trapezoidal Rule </h3>
-    
-    <h3> DifferentialEquations: Growth & Decay </h3>
-    
+    <div class = "makeItBouncy"> 
     <h3> Newton's Law of Cooling </h3>
+    <p> the rate of change in temp of an object is proportional to the difference between the object's temp & the temp
+      of the surrounding medium </p>
+    <p> y = temp of object & y<sub>s</sub> temp of surrounding medium SO... dy/dt = k(y - y<sub>s</sub>) </p>
+    </div>
     
-    <h3> Area of Region between two curves </h3>
-    
-    <h3> Volumes of Revolution: Disc & Washer Method </h3>
-    
-    <h3> Shell Method </h3>
-    
-    <h3> Volume by cross sections </h3>
-    
-    <h3> Integration by Parts </h3>
-    
-    <h3> Trig Integrals hacks </h3>
-    
-    <h3> Trig sub </h3>
-    
-    <h3> Tabular Method (integration by parts) & Looping parts</h3>
-
-
+    <div class = "makeItBouncy"> 
+      <h3> Area of Region between two curves </h3>
+      <p> area between curves = ∫ (top curve) - (bottom curve) dx </p>
+      <p> the bottom bound is left </p>
+      <p> the top bound is right </p>
+      </div>
+      
 </body>
 </html>
