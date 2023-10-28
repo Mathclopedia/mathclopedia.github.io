@@ -30,156 +30,241 @@
 
       <div class = "makeItBouncy">
        <h1>~Trigonometry~</h1>
-       <p> We know that trigonometry sounds scary with all the big, fancy words. Don't worry :D. It's not as scary as it seems.</p>
+       <p id = "not-scary"> We know that trigonometry sounds scary with all the big, fancy words. Don't worry :D. It's not as scary as it seems.</p>
+      </div>
+
+        <div class = "makeItBouncy" id = "container">
+          <h3> Radians and Degrees </h3>
+          <ul class = "myUL">
+            <li>θ = theta</li>
+            <li> Positive angles: counterclockwise </li>
+            <li> Negative angle: clockwise (add 360 to find the positive angle) </li>
+            <li> Coterminal: two different angles are in the same position on the coordinate plane</li>
+          </ul>
+        </div>
+
+        <div class = "makeItBouncy" class = "container">
+          <div class = "row">
+            <div class = "column">
+              <h4> Degrees </h4>
+                <ul>
+                  <li> Usually a whole number and has always this symbol next to the number: °</li>
+                </ul>
+            </div>
+
+            <div class = "column">
+              <h4> Radians </h4>
+                <ul>
+                  <li> An incomplete fraction that contains π </li>
+                  <li> Can also be a number/decimal, but it will not contain a degree symbol </li>
+                  <li> For example, do not become confused between 14 radians and 14°. They are not the same thing </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "makeItBouncy" id = "convert">
+        <div id = "container">
+          <h3> Convert Radians -> Degrees and Vice Versa</h3>
+          <ul class = "myUL">
+            <li> Degrees -> radians: multiply degrees by π/180°</li>
+            <li> Radians -> degrees : multiply degrees by 180°/π</li>
+          </ul>
+        </div>
       </div>
 
       <div class = "makeItBouncy">
-        <h4> Radians and Degrees </h4>
-         <h5> Degrees </h5>
-         <ul>
-           <li>θ = theta</li>
-           <li> Positive angles: counterclockwise </li>
-           <li> Negative angle: clockwise (add 360 to find the positive angle) </li>
-           <li> Coterminal: two different angles are in the same position on the coordinate plane</li>
-         </ul>
+        <div class = "row">
+          <div class = "column">
+            <h3> Arc Length </h3>
+            <h4> S = rθ </h4>
+          </div>
+
+          <div class = "column">
+            <h3> Area of a Sector  </h3>
+            <h4> A = 0.5(r<sup>2</sup>θ) </h4>
+          </div>
+        </div>
       </div>
 
       <div class = "makeItBouncy">
-      <h3> Convert Radians -> Degrees and Vice Versa</h3>
-      <ul>
-        <li> Degrees -> radians: multiply degrees by π/180°</li>
-        <li> Radians -> degrees : multiply degrees by 180°/π</li>
-      </ul>
+        <h3> Right Triangles </h3>
+        <div class = "row">
+
+          <div class = "column">
+            <img src = "../assets/trig/15.jpg" class="graphs">
+            <p> This is where sin, cos, and tan come in! yay! </p>
+          </div>
+
+          <div class = "column">
+            <ul>
+              <li> This principle is based on the coordinate plane </li>
+              <li> Opposite: the side that is across from the angle (y value on the coordinate plane)</li>
+              <li> Adjacent: the side that is below the angle (x value on the coordinate plane)</li>
+              <li> Hypotenuse: the slanted side </li>
+              <li> Each angle's corresponding side is across from it (ex. 30°'s corresponding side is 1)</li>
+              <li style="margin-left:2em"> A smaller side will have a corresponding smaller angle. A larger side will have a corresponding larger angle </li>
+            </ul> 
+          </div>
+        </div>
       </div>
 
-      <div class = "makeItBouncy">
-        <h3> Arc Length </h3>
-        <h4> S = rθ </h4>
-
-        <h3> Area of a Sector  </h3>
-        <h4> A = 0.5(r<sup>2</sup>θ) </h4>
-      </div>
-
-      <div class = "makeItBouncy">
-      <h3> Right Triangles </h3>
-      <img src = "../assets/trig/15.jpg" class="graphs">
-      <!-- insert image of a right triangle on a coordinate plane -->
-      <p> This is where sin, cos, and tan come in! yay! </p>
-      <ul>
-        <li> This principle is based on the coordinate plane </li>
-        <li> Opposite: the side that is across from the angle (y value on the coordinate plane)</li>
-        <li> Adjacent: the side that is below the angle (x value on the coordinate plane)</li>
-        <li> Hypotenuse: the slanted side </li>
-        <li> Each angle's corresponding side is across from it (ex. 30°'s corresponding side is 1)</li>
-        <li style="margin-left:2em"> A smaller side will have a corresponding smaller angle. A larger side will have a corresponding larger angle </li>
-      </ul> 
-      </div>
-
-      <div class = "makeItBouncy">
+      <div class = "makeItBouncy" id = "common-triangle">
       <h3> The Common Triangles You Will See</h3>
       <!-- insert image of 30, 60, 90 and 45, 45, 90 -->
-      <img src = "../assets/trig/16.jpg" class="graphs">
-      <ul>
-        <li> This is the basis of the unit circle, which we will get into later of course. Make sure to remember these</li>
-        <li> To make it easier to memorize, remember that the smallest angle will have the smallest side</li>
-        <li> Most trigonometry problems involve knowing this triangle and the unit circle values </li>
-        <li> The 45, 45, 90 is an isoceles triangle. The 30, 60, 90 is a scalene triangle </li>
-      </ul>
+        <div class = "row">
+
+          <div class = "column">
+            <img src = "../assets/trig/16.jpg" class="graphs">
+          </div>
+      
+          <div class = "column">
+            <ul>
+              <li> This is the basis of the unit circle, which we will get into later of course. Make sure to remember these</li>
+              <li> To make it easier to memorize, remember that the smallest angle will have the smallest side</li>
+              <li> Most trigonometry problems involve knowing this triangle and the unit circle values </li>
+              <li> The 45, 45, 90 is an isoceles triangle. The 30, 60, 90 is a scalene triangle </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div class = "makeItBouncy">
+      <div class = "makeItBouncy" id = "convert">
       <!-- Leave this space for tips; use the lower part for trigonometry -->
-      <h3> Soh Cah Toa </h3>
-      <!-- Draw a soh cah toa -->
-      <img src = "../assets/trig/18.jpg"class="graphs">
-      <ul>
-        <li> S: sin (sine) </li>
-        <li style="margin-left:2em"> oh: stands for opposite/hypotenuse </li>
-        <li> C: cos (cosine) </li>
-        <li style="margin-left:2em"> ah: stands for adjacent/hypotenuse </li>
-        <li> T: tan (tangent)</li>
-        <li style="margin-left:2em"> oa: stands for opposite/adjacent </li>
-        <li> This is how you solve for the sin, cos, or tan of a triangle </li>
-      </ul>
+        <h3> Soh Cah Toa </h3>
+        <!-- Draw a soh cah toa -->
+
+        <div class = "row">
+
+          <div class = "column">
+            <img src = "../assets/trig/18.jpg"class="graphs">
+          </div>
+
+          <div class = "column">
+            <ul>
+              <li> S: sin (sine) </li>
+              <li style="margin-left:2em"> oh: stands for opposite/hypotenuse </li>
+              <li> C: cos (cosine) </li>
+              <li style="margin-left:2em"> ah: stands for adjacent/hypotenuse </li>
+              <li> T: tan (tangent)</li>
+              <li style="margin-left:2em"> oa: stands for opposite/adjacent </li>
+              <li> This is how you solve for the sin, cos, or tan of a triangle </li>
+            </ul>
+          </div>
+
+        </div>
       </div>
 
-      <div class = "makeItBouncy">
-      <h3> How to solve for sin, cos, tan </h3>
-      <img src = "../assets/trig/17.jpg">
-      <!-- insert example -->
-      <ol>
-        <li> Tilt the triangle so that the desired angle is on the bottom </li>
-        <li> Look above at the Soh Cah Toa cheat sheet. Use the given values of each side to find the sin/cos/tan </li>
-      </ol>
+      <div class = "makeItBouncy" id = "convert">
+        <h3> How to solve for sin, cos, tan </h3>
+          <div class = "row">
+            <div class = "column">
+              <img src = "../assets/trig/17.jpg">
+            </div>
+          
+            <div class = "column">
+              <ol>
+                <li> Tilt the triangle so that the desired angle is on the bottom </li>
+                <li> Look above at the Soh Cah Toa cheat sheet. Use the given values of each side to find the sin/cos/tan </li>
+              </ol>
+            </div>
+
+          </div>
+        </div>
       </div>
 
       <div class = "makeItBouncy">
        <h3> How to Determine if sin/cos/tan is Negative or Positive </h3>
        <!-- add later -->
-       <h4> A few notes </h4>
-          <ul>
-            <li> sin = y </li>
-            <li> cos = x </li>
-            <li> tan = sin/cos </li>
-          </ul>
-        <img src="../assets/unitcircle.png" alt="A picture of the unit circle." id = "unitcircle">
-       <ol>
-        <li> Solve for the sin/cos/tan value </li>
-        <li> Check the value of the angle and think about which quadrant it would be on a coordinate plane </li>
-        <li> Is the x value negative or positive (for cos)? Is the y value negative or positive (for sin)? </li>
-        <li> Apply the negative/positive value to your answer </li>
-        <li> For tan, find out if the values for sin and cos are positive/negative. Divide sin/cos</li>
-       </ol>
-      </div>
+       <div class = "row">
 
-      <div class = "makeItBouncy">
+        <div class = "column">
+          <img src="../assets/unitcircle.png" alt="A picture of the unit circle." id = "unitcircle">
+        </div>
+
+        <div class = "column">
+          <div id = "container">
+            <h4 id = "notes"> A few notes </h4>
+              <ul class = "myUL">
+                <li> sin = y </li>
+                <li> cos = x </li>
+                <li> tan = sin/cos </li>
+              </ul>
+          </div>
+        </div>
+
+          <div class = "column">
+            <ol id = "list">
+                <li> Solve for the sin/cos/tan value </li>
+                <li> Check the value of the angle and think about which quadrant it would be on a coordinate plane </li>
+                <li> Is the x value negative or positive (for cos)? Is the y value negative or positive (for sin)? </li>
+                <li> Apply the negative/positive value to your answer </li>
+                <li> For tan, find out if the values for sin and cos are positive/negative. Divide sin/cos</li>
+            </ol>
+          </div>
+          
+        </div>
+       </div>
+
+      <div class = "makeItBouncy" id = "large-margin">
        <h3> Reference angles </h3>
        <!-- Insert picture of the reference angles -->
-       <img src = "../assets/trig/1.JPG" id = "unitcircle">
-       <ul>
-        <li> The angle between the given angle and the closest x axis </li>
-        <li> This is VERY important for the unit circle, which is why it's directly above it </li>
-        <li> If you know the reference angle to any angle, finding the coordinates on a unit circle will be easy </li>
-       </ul>
+        <div class = "row">
+          <div class = "column">
+            <img src = "../assets/trig/1.JPG" id = "unitcircle">
+          </div>
+
+          <div class = "column">
+            <ul>
+              <li> The angle between the given angle and the closest x axis </li>
+              <li> This is VERY important for the unit circle, which is why it's directly above it </li>
+              <li> If you know the reference angle to any angle, finding the coordinates on a unit circle will be easy </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       <div class = "makeItBouncy">
-       <h1> Unit Circle!!! </h1>
-       <div id = "unitCircle">
+        <h1> Unit Circle!!! </h1>
+        <div id = "unitCircle">
           <img src="../assets/unitcircle.png" class="graphs" id = "unitcircle">
-          <h1>Here are some tips + tricks to tackle the unit circle </h1>
-          <p> First of all, do NOT memorize this, it is very unnecessary </p>
-          <p> Secondly, read this if you know what sin, cos, tan, reference angles and right triangles are. If you don't, read the info above and come back later. </p>
-          <ol>
-            <li> Find the reference angle </li>
-            <li> Find the sin, cos, or tan of the reference angle. You do this by remembering the side lengths of the 30, 60, 90 or 45, 45, 90 triangles </li>
-            <li> Check which quadrant the angle is in </li>
-            <li> If you are finding sin, think about if y is negative or positive in that quadrant. If you are finding cos, think about if x is negative or positive quadrant. <br> If you are finding tan, find the negative/positive value of both x and y then divide sinx/cosx</li>
-            <li> Switch the sign of the answer accordingly </li>
-            <li> This takes some time, but don't get frustrated!</li>
-          </ol>
 
-          <h3> Let's Try this Together! </h3>
-          <ol>
-            <li> Let's find sin 7π/6 (210°) </li>
-            <li> Find the reference angle. In this case, it is π/6</li>
-            <li> What is sin of π/6? If you remember the 30, 60, 90 triangle, it is 1/2 </li>
-            <li> Which quadrant is 7π/6 on the coordinate plane? It's in quadrant 3 where, where x and y are negative </li>
-            <li> What does sin represent? Since we used the opposite angle (the y), sin represents the y value on a coordinate plane. </li>
-            <li> Since y is negative in quadrant 3, we change 1/2 to -1/2 </li>
-          </ol>
+            <h3>Here are some tips + tricks to tackle the unit circle </h3>
 
-          <h3> Why the angles 0, π/2, π, and 3π/2 are Different From the Right Triangle Values </h3>
-          <p> For the x and y axis angles, think conceptually about the values </p>
-          <p> Keep in mind that the radius of the circle is 1 </p>
-          <ol>
-            <li> When the angle is 0, the values is (1, 0) because it's the distance from the midpoint to the corners of the circle at 0°</li>
-            <li> This principle is the same for the rest of the angles: When the angle is π/2 (90°), the value is (0,1) (cos π/2 = 0, sin π/2 = 1) </li>
-            <li> When the angle is π (180°), the value is (-1,0) (cos π = 1, sin π = 0)</li>
-            <li> When the angle is 3π/2 (270°), the value is (0,-1) (cos 3π/2 = 0, sin 3π/2 = -1)</li>
-          </ol>
+            <p id = "not-scary"> First of all, do NOT memorize this, it is very unnecessary </p>
+            <p id = "not-scary"> Secondly, read this if you know what sin, cos, tan, reference angles and right triangles are. If you don't, read the info above and come back later. </p>
+            
+            <ol>
+              <li> Find the reference angle </li>
+              <li> Find the sin, cos, or tan of the reference angle. You do this by remembering the side lengths of the 30, 60, 90 or 45, 45, 90 triangles </li>
+              <li> Check which quadrant the angle is in </li>
+              <li> If you are finding sin, think about if y is negative or positive in that quadrant. If you are finding cos, think about if x is negative or positive quadrant. <br> If you are finding tan, find the negative/positive value of both x and y then divide sinx/cosx</li>
+              <li> Switch the sign of the answer accordingly </li>
+              <li> This takes some time, but don't get frustrated!</li>
+            </ol>
+
+            <h3> Let's Try this Together! </h3>
+            <ol>
+              <li> Let's find sin 7π/6 (210°) </li>
+              <li> Find the reference angle. In this case, it is π/6</li>
+              <li> What is sin of π/6? If you remember the 30, 60, 90 triangle, it is 1/2 </li>
+              <li> Which quadrant is 7π/6 on the coordinate plane? It's in quadrant 3 where, where x and y are negative </li>
+              <li> What does sin represent? Since we used the opposite angle (the y), sin represents the y value on a coordinate plane. </li>
+              <li> Since y is negative in quadrant 3, we change 1/2 to -1/2 </li>
+            </ol>
+
+            <h3> Why the angles 0, π/2, π, and 3π/2 are Different From the Right Triangle Values </h3>
+            <p> For the x and y axis angles, think conceptually about the values </p>
+            <p> Keep in mind that the radius of the circle is 1 </p>
+            <ol>
+              <li> When the angle is 0, the values is (1, 0) because it's the distance from the midpoint to the corners of the circle at 0°</li>
+              <li> This principle is the same for the rest of the angles: When the angle is π/2 (90°), the value is (0,1) (cos π/2 = 0, sin π/2 = 1) </li>
+              <li> When the angle is π (180°), the value is (-1,0) (cos π = 1, sin π = 0)</li>
+              <li> When the angle is 3π/2 (270°), the value is (0,-1) (cos 3π/2 = 0, sin 3π/2 = -1)</li>
+            </ol>
         </div>
-        </div>
+      </div>
 
         <div class = "makeItBouncy">
         <h3> csc, sec, cot </h3>
