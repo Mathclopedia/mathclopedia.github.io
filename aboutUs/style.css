@@ -71,33 +71,45 @@ body {
 h1 {
   margin-left: 15px;
   font-size: 50px;
+  text-align: center;
 }
 
 h2 {
   margin-left: 15px;
+  display: inline-block;
+  text-align: left;
 }
 
 h3 {
   font-size: 40px;
   margin-left: 15px;
   color: #83BCFF;
+  text-align: center;
 }
 
 h4 {
   font-size: 35px;
   margin-left: 15px;
   color: #8547d1da;
+  text-align: center;
 }
 
 h5{
   font-size: 25px;
   margin-left: 15px;
   color: rgb(235, 116, 199);
+  text-align: center;
 }
 
 p {
   margin-left: 20px;
   font-size: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.paragraph-center {
+  text-align: center;
 }
 
 li {
