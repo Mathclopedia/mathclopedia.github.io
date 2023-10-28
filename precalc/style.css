@@ -65,7 +65,10 @@ body {
  background-color: lightcoral;
  }
  
-
+.intro {
+  display: inline-block;
+  text-align: left;
+}
 /* decorations */
 
 h1 {
