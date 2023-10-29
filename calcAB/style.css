@@ -139,6 +139,10 @@ img {
   height: 300px;
 }
 
+.bigGraphs {
+  height: 500px;
+}
+
 .formula {
   height: 100px;
 }
